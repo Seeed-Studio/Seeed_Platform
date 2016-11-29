@@ -17,7 +17,7 @@
           "help": {
             "online": "http://www.seeedstudio.com/wiki/Main_Page"
           },
-          "url": "https://raw.githubusercontent.com/loovee/Seeed_Platform/master/Seeeduino_AVR_v1.0.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_AVR_v1.0.0.tar.bz2",
           "archiveFileName": "Seeeduino_AVR_v1.0.0.tar.bz2",
           "checksum": "SHA-256:044ca6e7be70a09dba38e2195f82045e24234f592bedcb1125a88d69908493d5",
           "size": "4884594",
@@ -49,7 +49,7 @@
           "help": {
             "online": "http://www.seeedstudio.com/wiki/Main_Page"
           },
-          "url": "https://raw.githubusercontent.com/loovee/Seeed_Platform/master/Seeeduino_Stalker_V3.tar.bz2",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Stalker_V3.tar.bz2",
           "archiveFileName": "Seeeduino_Stalker_V3.tar.bz2",
           "checksum": "SHA-256:780b807ee66b9deedaa56462697b91b2e0480549883c71e7a1184659bf4c39bb",
           "size": "4883809",
@@ -74,7 +74,7 @@
           "architecture": "Seeeduino_SAMD",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/loovee/Seeed_Platform/master/Seeeduino_SAMD_v1.0.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.0.0.tar.bz2",
           "archiveFileName": "Seeeduino_SAMD_v1.0.0.tar.bz2",
           "checksum": "SHA-256:6796c2414a0ef6b895907af30e89d73855f81e6c912954b703b6f2ab1c58ce7d",
           "size": "2294417",
@@ -113,7 +113,7 @@
           "help": {
             "online": "http://www.seeedstudio.com/wiki/Main_Page"
           },
-          "url": "https://raw.githubusercontent.com/loovee/Seeed_Platform/master/RePhone_core_2G_Atmel32u4_v1.0.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/RePhone_core_2G_Atmel32u4_v1.0.0.tar.bz2",
           "archiveFileName": "RePhone_core_2G_Atmel32u4_v1.0.0.tar.bz2",
           "checksum": "SHA-256:022c8ebadee01d8f6db0acae4222547a002e3fbde6e19e6309bdf3f8ecafd3f9",
           "size": "4809292",
@@ -140,7 +140,7 @@
           "architecture": "RePhone_core_2G_AtmelSAMD21",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/loovee/Seeed_Platform/master/RePhone_core_2G_AtmelSAMD21_v1.0.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/RePhone_core_2G_AtmelSAMD21_v1.0.0.tar.bz2",
           "archiveFileName": "RePhone_core_2G_AtmelSAMD21_v1.0.0.tar.bz2",
           "checksum": "SHA-256:a37c3824447d7f07e50cb104cc7a51a5f6fb723719e15e609cec9ecfa92152e4",
           "size": "1888166",
@@ -180,7 +180,7 @@
           "help": {
             "online": "http://www.seeedstudio.com/forum/viewforum.php?f=71"
           },
-          "url": "https://raw.githubusercontent.com/loovee/Seeed_Platform/master/RePhone_core_2G_MT2502_v1.0.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/RePhone_core_2G_MT2502_v1.0.0.tar.bz2",
           "archiveFileName": "RePhone_core_2G_MT2502_v1.0.0.tar.bz2",
           "checksum": "SHA-256:2efd5b9abd4ed64abcfc696ce6fa40924298aa0209fa67b1bff68bb9dadf9ecc",
           "size": "249744",
