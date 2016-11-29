@@ -4,7 +4,7 @@
       "name": "Seeeduino",
       "maintainer": "Seeed Studio",
       "websiteURL": "http://www.seeedstudio.com/",
-      "email": "",
+      "email": "loovee@seeed.cc",
       "help": {
         "online": "http://www.seeedstudio.com/wiki/Main_Page"
       },
@@ -27,6 +27,34 @@
 			{"name": "Seeeduino V4(Atmega328P)"},
 			{"name": "Seeeduino Lotus"},
 			{"name": "Seeeduino Lite"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Seeeduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        },
+        {
+          "name": "Seeeduino Stalker V3",
+          "architecture": "Seeeduino_AVR",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "http://www.seeedstudio.com/wiki/Main_Page"
+          },
+          "url": "https://raw.githubusercontent.com/loovee/Seeed_Platform/master/Seeeduino_AVR_v1.0.0.tar.bz2",
+          "archiveFileName": "Seeeduino_Stalker_V3.tar.bz2",
+          "checksum": "SHA-256:d8a36d36fc7ab27ea4d5360f996d646245e51f335cf4150d2fc81c2e7104a3c0",
+          "size": "4885842",
+          "boards": [
+            {"name": "Seeeduino Stalker V3"},
           ],
           "toolsDependencies": [
             {
