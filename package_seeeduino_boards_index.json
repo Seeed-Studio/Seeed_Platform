@@ -54,7 +54,7 @@
           "checksum": "SHA-256:d8a36d36fc7ab27ea4d5360f996d646245e51f335cf4150d2fc81c2e7104a3c0",
           "size": "4885842",
           "boards": [
-            {"name": "Seeeduino Stalker V3"},
+            {"name": "Seeeduino Stalker V3"}
           ],
           "toolsDependencies": [
             {
