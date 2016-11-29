@@ -49,10 +49,10 @@
           "help": {
             "online": "http://www.seeedstudio.com/wiki/Main_Page"
           },
-          "url": "https://raw.githubusercontent.com/loovee/Seeed_Platform/master/Seeeduino_AVR_v1.0.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/loovee/Seeed_Platform/master/Seeeduino_Stalker_V3.tar.bz2",
           "archiveFileName": "Seeeduino_Stalker_V3.tar.bz2",
-          "checksum": "SHA-256:d8a36d36fc7ab27ea4d5360f996d646245e51f335cf4150d2fc81c2e7104a3c0",
-          "size": "4885842",
+          "checksum": "SHA-256:eea674c58c74111d1d4fa39c4bcf10e6fcc8b1cb4d4384bcac0ac6c141d2d0a4",
+          "size": "4883738",
           "boards": [
             {"name": "Seeeduino Stalker V3"}
           ],
