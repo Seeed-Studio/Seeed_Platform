@@ -51,8 +51,8 @@
           },
           "url": "https://raw.githubusercontent.com/loovee/Seeed_Platform/master/Seeeduino_Stalker_V3.tar.bz2",
           "archiveFileName": "Seeeduino_Stalker_V3.tar.bz2",
-          "checksum": "SHA-256:da47e0346447c089b1d7d03eb2d35628593dccec209431a02cbfbccd69d86661",
-          "size": "4884791",
+          "checksum": "SHA-256:780b807ee66b9deedaa56462697b91b2e0480549883c71e7a1184659bf4c39bb",
+          "size": "4883809",
           "boards": [
             {"name": "Seeeduino Stalker V3"}
           ],
