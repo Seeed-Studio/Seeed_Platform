@@ -44,15 +44,15 @@
         {
           "name": "Seeeduino Stalker V3",
           "architecture": "Seeeduino_Stalker",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "category": "Contributed",
           "help": {
             "online": "http://www.seeedstudio.com/wiki/Main_Page"
           },
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Stalker_V3.tar.bz2",
           "archiveFileName": "Seeeduino_Stalker_V3.tar.bz2",
-          "checksum": "SHA-256:780b807ee66b9deedaa56462697b91b2e0480549883c71e7a1184659bf4c39bb",
-          "size": "4883809",
+          "checksum": "SHA-256:2879065528576b13645f19fa3e2eeb59315e78502b1b41a32f8b19e088478ed4",
+          "size": "4894720",
           "boards": [
             {"name": "Seeeduino Stalker V3"}
           ],

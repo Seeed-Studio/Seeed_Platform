@@ -1,4 +1,4 @@
-![](http://statics3.seeedstudio.com/assets/img/wiki/wiki_banner_20161013.jpg)
+[![](http://statics3.seeedstudio.com/assets/img/wiki/wiki_banner_20161013.jpg)](http://www.seeedstudio.com)
 
 Seeed had designed so many boards that work with Arduino IDE, include,
 
