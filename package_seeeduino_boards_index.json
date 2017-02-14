@@ -51,7 +51,7 @@
           },
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Stalker_V3.tar.bz2",
           "archiveFileName": "Seeeduino_Stalker_V3.tar.bz2",
-          "checksum": "SHA-256:2879065528576b13645f19fa3e2eeb59315e78502b1b41a32f8b19e088478ed4",
+          "checksum": "SHA-256:89d5538bc5fb66023fc1e0fcc147e3d245b6ef634379df7392867d5435b9b7ef",
           "size": "4894720",
           "boards": [
             {"name": "Seeeduino Stalker V3"}
