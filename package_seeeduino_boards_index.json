@@ -103,7 +103,7 @@
           "version": "1.0.0",
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_Wio_GPS_Board_v1.0.0.tar.bz2",
-          "archiveFileName": "Seeeduino_SAMD_v1.0.0.tar.bz2",
+          "archiveFileName": "Seeed_Wio_GPS_Board_v1.0.0.tar.bz2",
           "checksum": "SHA-256:1cb29519612e75c23bbc4417f141bcb8abe00973f33a66a85e151351c6d584d9",
           "size": "2343183",
           "boards": [
