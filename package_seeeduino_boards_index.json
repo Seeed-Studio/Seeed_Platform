@@ -201,6 +201,43 @@
           ]
         },
         {
+          "name": "Seeed Wio GPS Board",
+          "architecture": "Seeed_Wio_GPS_Board",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_Wio_GPS_Board_v1.0.0.tar.bz2",
+          "archiveFileName": "RePhone_core_2G_AtmelSAMD21_v1.0.0.tar.bz2",
+          "checksum": "SHA-256:a37c3824447d7f07e50cb104cc7a51a5f6fb723719e15e609cec9ecfa92152e4",
+          "size": "1888166",
+          "boards": [
+            {
+              "name": "RePhone core 2G-AtmelSAMD21"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Seeeduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        },
+        {
           "name": "Rephone core 2G MT2502",
           "architecture": "Rephone_core_2G_MT2502",
           "version": "1.0.0",
