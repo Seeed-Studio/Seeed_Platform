@@ -214,8 +214,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.2.tar.bz2",
           "archiveFileName": "Seeeduino_SAMD_v1.1.2.tar.bz2",
-          "checksum": "SHA-256:fc39bcc928d4fd5bf0b98d92021e0fb9ac252a6481da9bc385ee6baf116787ec",
-          "size": "2575403",
+          "checksum": "SHA-256:89cc1e564947f5e840dd2bdb374a18a9ba6c65787543b4c78d4a14558eb670c8",
+          "size": "2525640",
           "boards": [
             {"name": "Seeeduino Zero"},
             {"name": "Seeeduino LoRaWAN"},
@@ -366,7 +366,7 @@
               "version": "1.1.23"
             }
           ]
-        }        
+        }
       ],
       "tools": [
         {
