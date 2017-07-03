@@ -245,6 +245,43 @@
           ]
         },
         {
+          "name": "Seeeduino SAMD",
+          "architecture": "Seeeduino_SAMD",
+          "version": "1.1.3",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.3.tar.bz2",
+          "archiveFileName": "Seeeduino_SAMD_v1.1.3.tar.bz2",
+          "checksum": "SHA-256:e2ca6c5e090f53edf9107a74c7b880385a45dbe7af5d727f52e307bb5a75d68b",
+          "size": "2536305",
+          "boards": [
+            {"name": "Seeeduino Zero"},
+            {"name": "Seeeduino LoRaWAN"},
+            {"name": "Seeed Wio GPS Board"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Seeeduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        },
+        {
           "name": "RePhone core 2G-Atmel32u4",
           "architecture": "RePhone_core_2G_Atmel32u4",
           "version": "1.0.0",
