@@ -256,7 +256,7 @@
           "boards": [
             {"name": "Seeeduino Zero"},
             {"name": "Seeeduino LoRaWAN"},
-            {"name": "Seeed Wio GPS Board"}
+            {"name": "Seeed Wio Tracker"}
           ],
           "toolsDependencies": [
             {
