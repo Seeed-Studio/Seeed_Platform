@@ -288,7 +288,7 @@
           "category": "Contributed",
           "url": "https://github.com/jerryyip/Seeed_Platform/blob/master/Seeeduino_SAMD_v1.1.4.tar.bz2",
           "archiveFileName": "Seeeduino_SAMD_v1.1.4.tar.bz2",
-          "checksum": "SHA-256: b3b20e1ddc26e7dfcc18dc2ffa10c48cc9b4ed53d4d39a2c7fff9cdd6e285366",
+          "checksum": "SHA-256:b3b20e1ddc26e7dfcc18dc2ffa10c48cc9b4ed53d4d39a2c7fff9cdd6e285366",
           "size": "2536928",
           "boards": [
             {"name": "Seeeduino Zero"},
