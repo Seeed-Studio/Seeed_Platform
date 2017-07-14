@@ -756,6 +756,40 @@
               "size": "16410334"
             }
           ]
+        },
+        {
+          "name": "stm32_dfu_upload_tool",
+          "version": "1.0.0",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://raw.githubusercontent.com/lanselambor/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "checksum": "SHA-256:ded9d202bd2d17675191037735d381673163c04bfd5f48ef061a487a2fc7d0d1",
+              "size": "849119"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://raw.githubusercontent.com/lanselambor/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "checksum": "SHA-256:ded9d202bd2d17675191037735d381673163c04bfd5f48ef061a487a2fc7d0d1",
+              "size": "849119"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://raw.githubusercontent.com/lanselambor/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "checksum": "SHA-256:ded9d202bd2d17675191037735d381673163c04bfd5f48ef061a487a2fc7d0d1",
+              "size": "849119"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://raw.githubusercontent.com/lanselambor/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "checksum": "SHA-256:ded9d202bd2d17675191037735d381673163c04bfd5f48ef061a487a2fc7d0d1",
+              "size": "849119"
+            }
+          ]
         }
       ]
     }
