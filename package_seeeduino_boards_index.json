@@ -858,29 +858,29 @@
               "host": "i686-mingw32",
               "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
               "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "checksum": "SHA-256:3d9def3bcff91731be2d93a9ebe8222c76e3aa9fb27dabed1e5f52dae23831db",
-              "size": "370535"
+              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+              "size": "370492"
             },
             {
               "host": "x86_64-apple-darwin",
               "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
               "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "checksum": "SHA-256:3d9def3bcff91731be2d93a9ebe8222c76e3aa9fb27dabed1e5f52dae23831db",
-              "size": "370535"
+              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+              "size": "370492"
             },
             {
               "host": "x86_64-pc-linux-gnu",
               "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
               "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "checksum": "SHA-256:3d9def3bcff91731be2d93a9ebe8222c76e3aa9fb27dabed1e5f52dae23831db",
-              "size": "370535"
+              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+              "size": "370492"
             },
             {
               "host": "i686-pc-linux-gnu",
               "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
               "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "checksum": "SHA-256:3d9def3bcff91731be2d93a9ebe8222c76e3aa9fb27dabed1e5f52dae23831db",
-              "size": "370535"
+              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+              "size": "370492"
             }
           ]
         }
