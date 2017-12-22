@@ -1,920 +1,910 @@
 {
-  "packages": [
-    {
-      "name": "Seeeduino",
-      "maintainer": "Seeed Studio",
-      "websiteURL": "http://www.seeedstudio.com/",
-      "email": "loovee@seeed.cc",
-      "help": {
-        "online": "http://www.seeedstudio.com/wiki/Main_Page"
-      },
-      "platforms": [
-        {
-          "name": "Seeeduino AVR",
-          "architecture": "Seeeduino_AVR",
-          "version": "1.0.0",
-          "category": "Contributed",
-          "help": {
+    "packages": [{
+        "name": "Seeeduino",
+        "maintainer": "Seeed Studio",
+        "websiteURL": "http://www.seeedstudio.com/",
+        "email": "loovee@seeed.cc",
+        "help": {
             "online": "http://www.seeedstudio.com/wiki/Main_Page"
-          },
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_AVR_v1.0.0.tar.bz2",
-          "archiveFileName": "Seeeduino_AVR_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:044ca6e7be70a09dba38e2195f82045e24234f592bedcb1125a88d69908493d5",
-          "size": "4884594",
-          "boards": [
-            {"name": "Seeeduino V3.0(Atmega328P)"},
-            {"name": "Seeeduino Mega 2560"},
-      {"name": "Seeeduino V4(Atmega328P)"},
-      {"name": "Seeeduino Lotus"},
-      {"name": "Seeeduino Lite"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
         },
-        {
-          "name": "Seeeduino Stalker V3",
-          "architecture": "Seeeduino_Stalker",
-          "version": "1.0.1",
-          "category": "Contributed",
-          "help": {
-            "online": "http://www.seeedstudio.com/wiki/Main_Page"
-          },
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Stalker_V3.tar.bz2",
-          "archiveFileName": "Seeeduino_Stalker_V3.tar.bz2",
-          "checksum": "SHA-256:2879065528576b13645f19fa3e2eeb59315e78502b1b41a32f8b19e088478ed4",
-          "size": "4891995",
-          "boards": [
-            {"name": "Seeeduino Stalker V3"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
+        "platforms": [{
+                "name": "Seeeduino AVR",
+                "architecture": "Seeeduino_AVR",
+                "version": "1.0.0",
+                "category": "Contributed",
+                "help": {
+                    "online": "http://www.seeedstudio.com/wiki/Main_Page"
+                },
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_AVR_v1.0.0.tar.bz2",
+                "archiveFileName": "Seeeduino_AVR_v1.0.0.tar.bz2",
+                "checksum": "SHA-256:044ca6e7be70a09dba38e2195f82045e24234f592bedcb1125a88d69908493d5",
+                "size": "4884594",
+                "boards": [
+                    { "name": "Seeeduino V3.0(Atmega328P)" },
+                    { "name": "Seeeduino Mega 2560" },
+                    { "name": "Seeeduino V4(Atmega328P)" },
+                    { "name": "Seeeduino Lotus" },
+                    { "name": "Seeeduino Lite" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "avr-gcc",
+                        "version": "4.8.1-arduino5"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "avrdude",
+                        "version": "6.0.1-arduino5"
+                    }
+                ]
             },
             {
-              "packager": "Seeeduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
+                "name": "Seeeduino Stalker V3",
+                "architecture": "Seeeduino_Stalker",
+                "version": "1.0.1",
+                "category": "Contributed",
+                "help": {
+                    "online": "http://www.seeedstudio.com/wiki/Main_Page"
+                },
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Stalker_V3.tar.bz2",
+                "archiveFileName": "Seeeduino_Stalker_V3.tar.bz2",
+                "checksum": "SHA-256:2879065528576b13645f19fa3e2eeb59315e78502b1b41a32f8b19e088478ed4",
+                "size": "4891995",
+                "boards": [
+                    { "name": "Seeeduino Stalker V3" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "avr-gcc",
+                        "version": "4.8.1-arduino5"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "avrdude",
+                        "version": "6.0.1-arduino5"
+                    }
+                ]
+            },
+            {
+                "name": "Seeeduino Stalker V3",
+                "architecture": "Seeeduino_Stalker",
+                "version": "1.0.2",
+                "category": "Contributed",
+                "help": {
+                    "online": "http://www.seeedstudio.com/wiki/Main_Page"
+                },
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Stalker_V3_1.0.2.tar.bz2",
+                "archiveFileName": "Seeeduino_Stalker_V3.tar.bz2",
+                "checksum": "SHA-256:e83f9547b33801e92426aa5b89cc04525908b2df1867f170be9fc73a09bd5358",
+                "size": "4890378",
+                "boards": [
+                    { "name": "Seeeduino Stalker V3" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "avr-gcc",
+                        "version": "4.8.1-arduino5"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "avrdude",
+                        "version": "6.0.1-arduino5"
+                    }
+                ]
+            },
+            {
+                "name": "Seeeduino SAMD",
+                "architecture": "Seeeduino_SAMD",
+                "version": "1.0.0",
+                "category": "Contributed",
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.0.0.tar.bz2",
+                "archiveFileName": "Seeeduino_SAMD_v1.0.0.tar.bz2",
+                "checksum": "SHA-256:6796c2414a0ef6b895907af30e89d73855f81e6c912954b703b6f2ab1c58ce7d",
+                "size": "2294417",
+                "boards": [
+                    { "name": "Seeeduino Zero" },
+                    { "name": "Seeeduino LoRaWAN" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "bossac",
+                        "version": "1.6.1-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "openocd",
+                        "version": "0.9.0-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "CMSIS",
+                        "version": "4.0.0-atmel"
+                    }
+                ]
+            },
+            {
+                "name": "Seeeduino SAMD",
+                "architecture": "Seeeduino_SAMD",
+                "version": "1.1.0",
+                "category": "Contributed",
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.0.tar.bz2",
+                "archiveFileName": "Seeeduino_SAMD_v1.1.0.tar.bz2",
+                "checksum": "SHA-256:db4a173d0680a28e4cf901815f442fcb4bbafd03fb5e57fbe4569b816166bf1c",
+                "size": "2542298",
+                "boards": [
+                    { "name": "Seeeduino Zero" },
+                    { "name": "Seeeduino LoRaWAN" },
+                    { "name": "Seeed Wio GPS Board" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "bossac",
+                        "version": "1.6.1-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "openocd",
+                        "version": "0.9.0-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "CMSIS",
+                        "version": "4.0.0-atmel"
+                    }
+                ]
+            },
+            {
+                "name": "Seeeduino SAMD",
+                "architecture": "Seeeduino_SAMD",
+                "version": "1.1.1",
+                "category": "Contributed",
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.1.tar.bz2",
+                "archiveFileName": "Seeeduino_SAMD_v1.1.1.tar.bz2",
+                "checksum": "SHA-256:5a60ad0fd7abf50cbd2225f6faaecb477a59cc1dd52d7fef16934861e455aa68",
+                "size": "2570980",
+                "boards": [
+                    { "name": "Seeeduino Zero" },
+                    { "name": "Seeeduino LoRaWAN" },
+                    { "name": "Seeed Wio GPS Board" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "bossac",
+                        "version": "1.6.1-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "openocd",
+                        "version": "0.9.0-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "CMSIS",
+                        "version": "4.0.0-atmel"
+                    }
+                ]
+            },
+            {
+                "name": "Seeeduino SAMD",
+                "architecture": "Seeeduino_SAMD",
+                "version": "1.1.2",
+                "category": "Contributed",
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.2.tar.bz2",
+                "archiveFileName": "Seeeduino_SAMD_v1.1.2.tar.bz2",
+                "checksum": "SHA-256:89cc1e564947f5e840dd2bdb374a18a9ba6c65787543b4c78d4a14558eb670c8",
+                "size": "2525640",
+                "boards": [
+                    { "name": "Seeeduino Zero" },
+                    { "name": "Seeeduino LoRaWAN" },
+                    { "name": "Seeed Wio GPS Board" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "bossac",
+                        "version": "1.6.1-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "openocd",
+                        "version": "0.9.0-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "CMSIS",
+                        "version": "4.0.0-atmel"
+                    }
+                ]
+            },
+            {
+                "name": "Seeeduino SAMD",
+                "architecture": "Seeeduino_SAMD",
+                "version": "1.1.3",
+                "category": "Contributed",
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.3.tar.bz2",
+                "archiveFileName": "Seeeduino_SAMD_v1.1.3.tar.bz2",
+                "checksum": "SHA-256:e2ca6c5e090f53edf9107a74c7b880385a45dbe7af5d727f52e307bb5a75d68b",
+                "size": "2536305",
+                "boards": [
+                    { "name": "Seeeduino Zero" },
+                    { "name": "Seeeduino LoRaWAN" },
+                    { "name": "Seeed Wio Tracker" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "bossac",
+                        "version": "1.6.1-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "openocd",
+                        "version": "0.9.0-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "CMSIS",
+                        "version": "4.0.0-atmel"
+                    }
+                ]
+            },
+            {
+                "name": "Seeeduino SAMD",
+                "architecture": "Seeeduino_SAMD",
+                "version": "1.1.4",
+                "category": "Contributed",
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.4.tar.bz2",
+                "archiveFileName": "Seeeduino_SAMD_v1.1.4.tar.bz2",
+                "checksum": "SHA-256:b3b20e1ddc26e7dfcc18dc2ffa10c48cc9b4ed53d4d39a2c7fff9cdd6e285366",
+                "size": "2536928",
+                "boards": [
+                    { "name": "Seeeduino Zero" },
+                    { "name": "Seeeduino LoRaWAN" },
+                    { "name": "Seeed Wio Tracker" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "bossac",
+                        "version": "1.6.1-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "openocd",
+                        "version": "0.9.0-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "CMSIS",
+                        "version": "4.0.0-atmel"
+                    }
+                ]
+            },
+            {
+                "name": "Seeeduino SAMD",
+                "architecture": "Seeeduino_SAMD",
+                "version": "1.1.5",
+                "category": "Contributed",
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.5.tar.bz2",
+                "archiveFileName": "Seeeduino_SAMD_v1.1.5.tar.bz2",
+                "checksum": "SHA-256:33827d122fc850a958e74872c9627c373e272306e98b3ea448be835643dafa07",
+                "size": "726850",
+                "boards": [
+                    { "name": "Seeeduino Zero" },
+                    { "name": "Seeeduino LoRaWAN" },
+                    { "name": "Seeed Wio Tracker" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "bossac",
+                        "version": "1.6.1-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "openocd",
+                        "version": "0.9.0-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "CMSIS",
+                        "version": "4.0.0-atmel"
+                    }
+                ]
+            },
+            {
+                "name": "Seeed STM32F4 Boards",
+                "architecture": "Seeed_STM32F4",
+                "version": "1.0.1",
+                "category": "Contributed",
+                "help": {
+                    "online": "http://www.seeedstudio.com/wiki/Main_Page"
+                },
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_STM32F4_v1.0.1.tar.bz2",
+                "archiveFileName": "Seeed_STM32F4_v1.0.1.tar.bz2",
+                "checksum": "SHA-256:b58130ea6fea1b192d7edf676b33821ace7d6e303430828ddf65af0b7b65fcda",
+                "size": "196450",
+                "boards": [
+                    { "name": "Wio LTE" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "stm32_dfu_upload_tool",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            {
+                "name": "Seeed STM32F4 Boards",
+                "architecture": "Seeed_STM32F4",
+                "version": "1.1.0",
+                "category": "Contributed",
+                "help": {
+                    "online": "http://www.seeedstudio.com/wiki/Main_Page"
+                },
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_STM32F4_v1.1.0.tar.bz2",
+                "archiveFileName": "Seeed_STM32F4_v1.1.0.tar.bz2",
+                "checksum": "SHA-256:f05d44450a2ed1fdf6a4eca1f1a917aac5dd967968bd521819eb259c412a6030",
+                "size": "210423",
+                "boards": [
+                    { "name": "Wio LTE" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "stm32_dfu_upload_tool",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            {
+                "name": "Seeed STM32F4 Boards",
+                "architecture": "Seeed_STM32F4",
+                "version": "1.1.1",
+                "category": "Contributed",
+                "help": {
+                    "online": "http://www.seeedstudio.com/wiki/Main_Page"
+                },
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_STM32F4_v1.1.1.tar.bz2",
+                "archiveFileName": "Seeed_STM32F4_v1.1.1.tar.bz2",
+                "checksum": "SHA-256:5a0a407489ad19dac7bf90cc27a1c9fb891c052cecc9f98c351e20f424e2f005",
+                "size": "196166",
+                "boards": [{
+                    "name": "Wio LTE"
+                }],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "stm32_dfu_upload_tool",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            {
+                "name": "Seeed STM32F4 Boards",
+                "architecture": "Seeed_STM32F4",
+                "version": "1.1.2",
+                "category": "Contributed",
+                "help": {
+                    "online": "http://www.seeedstudio.com/wiki/Main_Page"
+                },
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_STM32F4_v1.1.2.tar.bz2",
+                "archiveFileName": "Seeed_STM32F4_v1.1.2.tar.bz2",
+                "checksum": "SHA-256:75833587fce4aa7fb33a746b5abb4df0f9d876a875f48568bfd1924b39db499a",
+                "size": "239790",
+                "boards": [{
+                    "name": "Wio LTE"
+                }],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "stm32_dfu_upload_tool",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            {
+                "name": "RePhone core 2G-Atmel32u4",
+                "architecture": "RePhone_core_2G_Atmel32u4",
+                "version": "1.0.0",
+                "category": "Contributed",
+                "help": {
+                    "online": "http://www.seeedstudio.com/wiki/Main_Page"
+                },
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/RePhone_core_2G_Atmel32u4_v1.0.0.tar.bz2",
+                "archiveFileName": "RePhone_core_2G_Atmel32u4_v1.0.0.tar.bz2",
+                "checksum": "SHA-256:022c8ebadee01d8f6db0acae4222547a002e3fbde6e19e6309bdf3f8ecafd3f9",
+                "size": "4809292",
+                "boards": [{
+                    "name": "RePhone core 2G-Atmel32u4"
+                }],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "avr-gcc",
+                        "version": "4.8.1-arduino5"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "avrdude",
+                        "version": "6.0.1-arduino5"
+                    }
+                ]
+            },
+            {
+                "name": "RePhone core 2G-AtmelSAMD21",
+                "architecture": "RePhone_core_2G_AtmelSAMD21",
+                "version": "1.0.0",
+                "category": "Contributed",
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/RePhone_core_2G_AtmelSAMD21_v1.0.0.tar.bz2",
+                "archiveFileName": "RePhone_core_2G_AtmelSAMD21_v1.0.0.tar.bz2",
+                "checksum": "SHA-256:a37c3824447d7f07e50cb104cc7a51a5f6fb723719e15e609cec9ecfa92152e4",
+                "size": "1888166",
+                "boards": [{
+                    "name": "RePhone core 2G-AtmelSAMD21"
+                }],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "bossac",
+                        "version": "1.6.1-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "openocd",
+                        "version": "0.9.0-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "CMSIS",
+                        "version": "4.0.0-atmel"
+                    }
+                ]
+            },
+            {
+                "name": "Rephone core 2G MT2502",
+                "architecture": "Rephone_core_2G_MT2502",
+                "version": "1.0.0",
+                "category": "Contributed",
+                "help": {
+                    "online": "http://www.seeedstudio.com/forum/viewforum.php?f=71"
+                },
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/RePhone_core_2G_MT2502_v1.0.0.tar.bz2",
+                "archiveFileName": "RePhone_core_2G_MT2502_v1.0.0.tar.bz2",
+                "checksum": "SHA-256:2efd5b9abd4ed64abcfc696ce6fa40924298aa0209fa67b1bff68bb9dadf9ecc",
+                "size": "249744",
+                "boards": [
+                    { "name": "Rephone core 2G MT2502" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "linkit_tools",
+                        "version": "1.1.21"
+                    }
+                ]
+            },
+            {
+                "name": "Rephone core 2G MT2502",
+                "architecture": "Rephone_core_2G_MT2502",
+                "version": "1.0.1",
+                "category": "Contributed",
+                "help": {
+                    "online": "http://www.seeedstudio.com/forum/viewforum.php?f=71"
+                },
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/RePhone_core_2G_MT2502_v1.0.1.tar.bz2",
+                "archiveFileName": "RePhone_core_2G_MT2502_v1.0.1.tar.bz2",
+                "checksum": "SHA-256:d44482b81200fa974b0cefe30ea07399103b501dfe03be6956bc2b038c7e004b",
+                "size": "251239",
+                "boards": [
+                    { "name": "Rephone core 2G MT2502" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "linkit_tools",
+                        "version": "1.1.21"
+                    }
+                ]
+            },
+            {
+                "name": "LinkIt ONE",
+                "architecture": "LinkIt_ONE",
+                "version": "1.1.23",
+                "category": "Contributed",
+                "help": {
+                    "online": "http://labs.mediatek.com/forums/forums/show/11.page"
+                },
+                "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_(for_arduino_1.6)-1.1.23.zip",
+                "archiveFileName": "mediatek_linkit_sdk_(for_arduino_1.6)-1.1.23.zip",
+                "checksum": "SHA-256:36452fa39473c12cc4974a86bc0f3ab33d04eba85f32a3dc1297866fd0a61872",
+                "size": "751040",
+                "boards": [
+                    { "name": "LinkIt ONE" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "linkit_tools",
+                        "version": "1.1.23"
+                    }
+                ]
             }
-          ]
-        },
-        {
-          "name": "Seeeduino Stalker V3",
-          "architecture": "Seeeduino_Stalker",
-          "version": "1.0.2",
-          "category": "Contributed",
-          "help": {
-            "online": "http://www.seeedstudio.com/wiki/Main_Page"
-          },
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Stalker_V3_1.0.2.tar.bz2",
-          "archiveFileName": "Seeeduino_Stalker_V3.tar.bz2",
-          "checksum": "SHA-256:e83f9547b33801e92426aa5b89cc04525908b2df1867f170be9fc73a09bd5358",
-          "size": "4890378",
-          "boards": [
-            {"name": "Seeeduino Stalker V3"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
+        ],
+        "tools": [{
+                "name": "arm-none-eabi-gcc",
+                "version": "4.8.3-2014q1",
+                "systems": [{
+                        "host": "arm-linux-gnueabihf",
+                        "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-arm.tar.bz2",
+                        "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-arm.tar.bz2",
+                        "checksum": "SHA-256:ebe96b34c4f434667cab0187b881ed585e7c7eb990fe6b69be3c81ec7e11e845",
+                        "size": "44423906"
+                    },
+                    {
+                        "host": "i686-mingw32",
+                        "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+                        "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+                        "checksum": "SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
+                        "size": "84537449"
+                    },
+                    {
+                        "host": "x86_64-apple-darwin",
+                        "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+                        "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+                        "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+                        "size": "52518522"
+                    },
+                    {
+                        "host": "x86_64-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+                        "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+                        "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+                        "size": "51395093"
+                    },
+                    {
+                        "host": "i686-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+                        "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+                        "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+                        "size": "51029223"
+                    }
+                ]
             },
             {
-              "packager": "Seeeduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
+                "name": "bossac",
+                "version": "1.6.1-arduino",
+                "systems": [{
+                        "host": "arm-linux-gnueabihf",
+                        "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-arm-linux-gnueabihf.tar.bz2",
+                        "archiveFileName": "bossac-1.6.1-arduino-arm-linux-gnueabihf.tar.bz2",
+                        "checksum": "SHA-256:8c4e63db982178919c824e7a35580dffc95c3426afa7285de3eb583982d4d391",
+                        "size": "201341"
+                    },
+                    {
+                        "host": "i686-mingw32",
+                        "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-mingw32.tar.gz",
+                        "archiveFileName": "bossac-1.6.1-arduino-mingw32.tar.gz",
+                        "checksum": "SHA-256:d59f43e2e83a337d04c4ae88b195a4ee175b8d87fff4c43144d23412a4a9513b",
+                        "size": "222918"
+                    },
+                    {
+                        "host": "x86_64-apple-darwin",
+                        "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-i386-apple-darwin14.5.0.tar.gz",
+                        "archiveFileName": "bossac-1.6.1-arduino-i386-apple-darwin14.5.0.tar.gz",
+                        "checksum": "SHA-256:2f80ef569a3fb19da60ab3489e49d8fe7d4699876acf30ff4938c632230a09aa",
+                        "size": "64587"
+                    },
+                    {
+                        "host": "x86_64-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-x86_64-linux-gnu.tar.gz",
+                        "archiveFileName": "bossac-1.6.1-arduino-x86_64-linux-gnu.tar.gz",
+                        "checksum": "SHA-256:b78afc66c00ccfdd69a08bd3959c260a0c64ccce78a71d5a1135ae4437ff40db",
+                        "size": "30869"
+                    },
+                    {
+                        "host": "i686-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-i486-linux-gnu.tar.gz",
+                        "archiveFileName": "bossac-1.6.1-arduino-i486-linux-gnu.tar.gz",
+                        "checksum": "SHA-256:1e211347569d75193b337296a10dd25b0ce04419e3d7dc644355178b6b514f92",
+                        "size": "30320"
+                    }
+                ]
+            },
+            {
+                "name": "openocd",
+                "version": "0.9.0-arduino",
+                "systems": [{
+                        "host": "arm-linux-gnueabihf",
+                        "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-arm-linux-gnueabihf.tar.bz2",
+                        "archiveFileName": "OpenOCD-0.9.0-dev-arduino-arm-linux-gnueabihf.tar.bz2",
+                        "checksum": "SHA-256:a84e7c4cba853f2c937d77286f8a0ca317447d3873e51cbd2a2d41424e044a18",
+                        "size": "1402283"
+                    },
+                    {
+                        "host": "i686-mingw32",
+                        "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-i686-pc-cygwin.tar.bz2",
+                        "archiveFileName": "OpenOCD-0.9.0-arduino-i686-pc-cygwin.tar.bz2",
+                        "checksum": "SHA-256:5310bdd3730168a33b09b68558e908ca8b2fec25620c488f50a5fb35d0d1effd",
+                        "size": "2360705"
+                    },
+                    {
+                        "host": "x86_64-apple-darwin",
+                        "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-x86_64-apple-darwin14.3.0.tar.bz2",
+                        "archiveFileName": "OpenOCD-0.9.0-arduino-x86_64-apple-darwin14.3.0.tar.bz2",
+                        "checksum": "SHA-256:ef90769c07b8018cec3a5054e690ac6c196e03720e102ac5038c3f9da4e44782",
+                        "size": "2275101"
+                    },
+                    {
+                        "host": "x86_64-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-x86_64-linux-gnu.tar.bz2",
+                        "archiveFileName": "OpenOCD-0.9.0-arduino-x86_64-linux-gnu.tar.bz2",
+                        "checksum": "SHA-256:c350409f7badf213dfcc516ea34289461ad92d87806e8e33945508a2c6b2c0b3",
+                        "size": "1210796"
+                    },
+                    {
+                        "host": "i686-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-i486-linux-gnu.tar.bz2",
+                        "archiveFileName": "OpenOCD-0.9.0-arduino-i486-linux-gnu.tar.bz2",
+                        "checksum": "SHA-256:4c9793dfd7822b0fc959d039e5ecabfa89092ee2911abfdc7b5905deb171499a",
+                        "size": "1129654"
+                    }
+                ]
+            },
+            {
+                "name": "CMSIS",
+                "version": "4.0.0-atmel",
+                "systems": [{
+                        "host": "arm-linux-gnueabihf",
+                        "url": "http://downloads.arduino.cc/CMSIS-4.0.0.tar.bz2",
+                        "archiveFileName": "CMSIS-4.0.0.tar.bz2",
+                        "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
+                        "size": "17642623"
+                    },
+                    {
+                        "host": "i686-mingw32",
+                        "url": "http://downloads.arduino.cc/CMSIS-4.0.0.tar.bz2",
+                        "archiveFileName": "CMSIS-4.0.0.tar.bz2",
+                        "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
+                        "size": "17642623"
+                    },
+                    {
+                        "host": "x86_64-apple-darwin",
+                        "url": "http://downloads.arduino.cc/CMSIS-4.0.0.tar.bz2",
+                        "archiveFileName": "CMSIS-4.0.0.tar.bz2",
+                        "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
+                        "size": "17642623"
+                    },
+                    {
+                        "host": "x86_64-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/CMSIS-4.0.0.tar.bz2",
+                        "archiveFileName": "CMSIS-4.0.0.tar.bz2",
+                        "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
+                        "size": "17642623"
+                    },
+                    {
+                        "host": "i686-pc-linux-gnu",
+                        "url": "http://downloads.arduino.cc/CMSIS-4.0.0.tar.bz2",
+                        "archiveFileName": "CMSIS-4.0.0.tar.bz2",
+                        "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
+                        "size": "17642623"
+                    }
+                ]
+            },
+            {
+                "name": "avr-gcc",
+                "version": "4.8.1-arduino5",
+                "systems": [{
+                        "size": "24403768",
+                        "checksum": "SHA-256:c8ffcd2db7a651b48ab4ea19db4b34fbae3e7f0210a0f294592af2bdabf2154b",
+                        "host": "arm-linux-gnueabihf",
+                        "archiveFileName": "avr-gcc-4.8.1-arduino5-armhf-pc-linux-gnu.tar.bz2",
+                        "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-armhf-pc-linux-gnu.tar.bz2"
+                    },
+                    {
+                        "size": "24437400",
+                        "checksum": "SHA-256:111b3ef00d737d069eb237a8933406cbb928e4698689e24663cffef07688a901",
+                        "host": "i386-apple-darwin11",
+                        "archiveFileName": "avr-gcc-4.8.1-arduino5-i386-apple-darwin11.tar.bz2",
+                        "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-i386-apple-darwin11.tar.bz2"
+                    },
+                    {
+                        "size": "27093036",
+                        "checksum": "SHA-256:9054fcc174397a419ba56c4ce1bfcbcad275a6a080cc144905acc9b0351ee9cc",
+                        "host": "x86_64-linux-gnu",
+                        "archiveFileName": "avr-gcc-4.8.1-arduino5-x86_64-pc-linux-gnu.tar.bz2",
+                        "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-x86_64-pc-linux-gnu.tar.bz2"
+                    },
+                    {
+                        "size": "25882375",
+                        "checksum": "SHA-256:7648b7f549b37191da0b0be53bae791b652f82ac3cb4e7877f85075aaf32141f",
+                        "host": "i686-linux-gnu",
+                        "archiveFileName": "avr-gcc-4.8.1-arduino5-i686-pc-linux-gnu.tar.bz2",
+                        "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-i686-pc-linux-gnu.tar.bz2"
+                    },
+                    {
+                        "size": "46044779",
+                        "checksum": "SHA-256:d4303226a7b41d3c445d901b5aa5903458def3fc7b7ff4ffef37cabeb37d424d",
+                        "host": "i686-mingw32",
+                        "archiveFileName": "avr-gcc-4.8.1-arduino5-i686-mingw32.zip",
+                        "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-i686-mingw32.zip"
+                    }
+                ]
+            },
+            {
+                "name": "avrdude",
+                "version": "6.0.1-arduino5",
+                "systems": [{
+                        "size": "267095",
+                        "checksum": "SHA-256:23ea1341dbc117ec067f2eb1a498ad2bdd7d11fff0143c00b2e018c39804f6b4",
+                        "host": "arm-linux-gnueabihf",
+                        "archiveFileName": "avrdude-6.0.1-arduino5-armhf-pc-linux-gnu.tar.bz2",
+                        "url": "http://downloads.arduino.cc/tools/avrdude-6.0.1-arduino5-armhf-pc-linux-gnu.tar.bz2"
+                    },
+                    {
+                        "size": "264894",
+                        "checksum": "SHA-256:41af8d3b0a586853c8317b4fb5163ca0db594a1870ddf680fd988c42166fc3e5",
+                        "host": "i386-apple-darwin11",
+                        "archiveFileName": "avrdude-6.0.1-arduino5-i386-apple-darwin11.tar.bz2",
+                        "url": "http://downloads.arduino.cc/tools/avrdude-6.0.1-arduino5-i386-apple-darwin11.tar.bz2"
+                    },
+                    {
+                        "size": "292629",
+                        "checksum": "SHA-256:d826cca7383461f7e8adde686372cf900e9cb3afd639555cf2d6c645b283a476",
+                        "host": "x86_64-linux-gnu",
+                        "archiveFileName": "avrdude-6.0.1-arduino5-x86_64-pc-linux-gnu.tar.bz2",
+                        "url": "http://downloads.arduino.cc/tools/avrdude-6.0.1-arduino5-x86_64-pc-linux-gnu.tar.bz2"
+                    },
+                    {
+                        "size": "283121",
+                        "checksum": "SHA-256:5933d66927bce46ababa9b68a8b7f1d53f68c4f3ff7a5ce4b85d7cf4e6c6bfee",
+                        "host": "i686-linux-gnu",
+                        "archiveFileName": "avrdude-6.0.1-arduino5-i686-pc-linux-gnu.tar.bz2",
+                        "url": "http://downloads.arduino.cc/tools/avrdude-6.0.1-arduino5-i686-pc-linux-gnu.tar.bz2"
+                    },
+                    {
+                        "size": "241634",
+                        "checksum": "SHA-256:41f667f1f6a0ab8df46b4ffacd023176dcdef331d6db3b74bddd37d18cca0a44",
+                        "host": "i686-mingw32",
+                        "archiveFileName": "avrdude-6.0.1-arduino5-i686-mingw32.zip",
+                        "url": "http://downloads.arduino.cc/tools/avrdude-6.0.1-arduino5-i686-mingw32.zip"
+                    }
+                ]
+            },
+            {
+                "name": "linkit_tools",
+                "version": "1.1.21",
+                "systems": [{
+                        "host": "i686-mingw32",
+                        "archiveFileName": "mediatek_linkit_sdk_tool_windows-1.1.21.zip",
+                        "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_windows-1.1.21.zip",
+                        "checksum": "SHA-256:d3d049f04385c17cc177d1562455c96275f2bed202360d09afcf4ea133f98632",
+                        "size": "16374486"
+                    },
+                    {
+                        "host": "x86_64-apple-darwin",
+                        "archiveFileName": "mediatek_linkit_sdk_tool_osx-1.1.21.tar.gz",
+                        "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_osx-1.1.21.tar.gz",
+                        "checksum": "SHA-256:5de591b1d4143ddcc9e4e98d2fca2905a4ec0666bbb46e2aa089d9234f078738",
+                        "size": "16411173"
+                    }
+                ]
+            },
+            {
+                "name": "linkit_tools",
+                "version": "1.1.23",
+                "systems": [{
+                        "host": "i686-mingw32",
+                        "archiveFileName": "mediatek_linkit_sdk_tool_windows-1.1.23.zip",
+                        "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_windows-1.1.23.zip",
+                        "checksum": "SHA-256:82ce1d4a7a90737501d9a25ded6401d468ccd837b41b6f96c1e184cafd76705e",
+                        "size": "16374062"
+                    },
+                    {
+                        "host": "x86_64-apple-darwin",
+                        "archiveFileName": "mediatek_linkit_sdk_tool_osx-1.1.23.tar.gz",
+                        "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_osx-1.1.23.tar.gz",
+                        "checksum": "SHA-256:3d5d72d937255f69692cf18cfc829125e9583c2ed3058bb47cff973ceebfdec6",
+                        "size": "16410334"
+                    }
+                ]
+            },
+            {
+                "name": "stm32_dfu_upload_tool",
+                "version": "1.0.0",
+                "systems": [{
+                        "host": "i686-mingw32",
+                        "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+                        "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+                        "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+                        "size": "370492"
+                    },
+                    {
+                        "host": "x86_64-apple-darwin",
+                        "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+                        "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+                        "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+                        "size": "370492"
+                    },
+                    {
+                        "host": "x86_64-pc-linux-gnu",
+                        "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+                        "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+                        "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+                        "size": "370492"
+                    },
+                    {
+                        "host": "i686-pc-linux-gnu",
+                        "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+                        "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+                        "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+                        "size": "370492"
+                    }
+                ]
             }
-          ]
-        },
-        {
-          "name": "Seeeduino SAMD",
-          "architecture": "Seeeduino_SAMD",
-          "version": "1.0.0",
-          "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.0.0.tar.bz2",
-          "archiveFileName": "Seeeduino_SAMD_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:6796c2414a0ef6b895907af30e89d73855f81e6c912954b703b6f2ab1c58ce7d",
-          "size": "2294417",
-          "boards": [
-            {"name": "Seeeduino Zero"},
-            {"name": "Seeeduino LoRaWAN"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "bossac",
-              "version": "1.6.1-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "openocd",
-              "version": "0.9.0-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "CMSIS",
-              "version": "4.0.0-atmel"
-            }
-          ]
-        },
-        {
-          "name": "Seeeduino SAMD",
-          "architecture": "Seeeduino_SAMD",
-          "version": "1.1.0",
-          "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.0.tar.bz2",
-          "archiveFileName": "Seeeduino_SAMD_v1.1.0.tar.bz2",
-          "checksum": "SHA-256:db4a173d0680a28e4cf901815f442fcb4bbafd03fb5e57fbe4569b816166bf1c",
-          "size": "2542298",
-          "boards": [
-            {"name": "Seeeduino Zero"},
-            {"name": "Seeeduino LoRaWAN"},
-            {"name": "Seeed Wio GPS Board"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "bossac",
-              "version": "1.6.1-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "openocd",
-              "version": "0.9.0-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "CMSIS",
-              "version": "4.0.0-atmel"
-            }
-          ]
-        },
-        {
-          "name": "Seeeduino SAMD",
-          "architecture": "Seeeduino_SAMD",
-          "version": "1.1.1",
-          "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.1.tar.bz2",
-          "archiveFileName": "Seeeduino_SAMD_v1.1.1.tar.bz2",
-          "checksum": "SHA-256:5a60ad0fd7abf50cbd2225f6faaecb477a59cc1dd52d7fef16934861e455aa68",
-          "size": "2570980",
-          "boards": [
-            {"name": "Seeeduino Zero"},
-            {"name": "Seeeduino LoRaWAN"},
-            {"name": "Seeed Wio GPS Board"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "bossac",
-              "version": "1.6.1-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "openocd",
-              "version": "0.9.0-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "CMSIS",
-              "version": "4.0.0-atmel"
-            }
-          ]
-        },
-        {
-          "name": "Seeeduino SAMD",
-          "architecture": "Seeeduino_SAMD",
-          "version": "1.1.2",
-          "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.2.tar.bz2",
-          "archiveFileName": "Seeeduino_SAMD_v1.1.2.tar.bz2",
-          "checksum": "SHA-256:89cc1e564947f5e840dd2bdb374a18a9ba6c65787543b4c78d4a14558eb670c8",
-          "size": "2525640",
-          "boards": [
-            {"name": "Seeeduino Zero"},
-            {"name": "Seeeduino LoRaWAN"},
-            {"name": "Seeed Wio GPS Board"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "bossac",
-              "version": "1.6.1-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "openocd",
-              "version": "0.9.0-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "CMSIS",
-              "version": "4.0.0-atmel"
-            }
-          ]
-        },
-        {
-          "name": "Seeeduino SAMD",
-          "architecture": "Seeeduino_SAMD",
-          "version": "1.1.3",
-          "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.3.tar.bz2",
-          "archiveFileName": "Seeeduino_SAMD_v1.1.3.tar.bz2",
-          "checksum": "SHA-256:e2ca6c5e090f53edf9107a74c7b880385a45dbe7af5d727f52e307bb5a75d68b",
-          "size": "2536305",
-          "boards": [
-            {"name": "Seeeduino Zero"},
-            {"name": "Seeeduino LoRaWAN"},
-            {"name": "Seeed Wio Tracker"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "bossac",
-              "version": "1.6.1-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "openocd",
-              "version": "0.9.0-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "CMSIS",
-              "version": "4.0.0-atmel"
-            }
-          ]
-        },
-        {
-          "name": "Seeeduino SAMD",
-          "architecture": "Seeeduino_SAMD",
-          "version": "1.1.4",
-          "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.4.tar.bz2",
-          "archiveFileName": "Seeeduino_SAMD_v1.1.4.tar.bz2",
-          "checksum": "SHA-256:b3b20e1ddc26e7dfcc18dc2ffa10c48cc9b4ed53d4d39a2c7fff9cdd6e285366",
-          "size": "2536928",
-          "boards": [
-            {"name": "Seeeduino Zero"},
-            {"name": "Seeeduino LoRaWAN"},
-            {"name": "Seeed Wio Tracker"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "bossac",
-              "version": "1.6.1-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "openocd",
-              "version": "0.9.0-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "CMSIS",
-              "version": "4.0.0-atmel"
-            }
-          ]
-        },
-        {
-          "name": "Seeeduino SAMD",
-          "architecture": "Seeeduino_SAMD",
-          "version": "1.1.5",
-          "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.1.5.tar.bz2",
-          "archiveFileName": "Seeeduino_SAMD_v1.1.5.tar.bz2",
-          "checksum": "SHA-256:33827d122fc850a958e74872c9627c373e272306e98b3ea448be835643dafa07",
-          "size": "726850",
-          "boards": [
-            {"name": "Seeeduino Zero"},
-            {"name": "Seeeduino LoRaWAN"},
-            {"name": "Seeed Wio Tracker"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "bossac",
-              "version": "1.6.1-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "openocd",
-              "version": "0.9.0-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "CMSIS",
-              "version": "4.0.0-atmel"
-            }
-          ]
-        },
-        {
-          "name": "Seeed STM32F4 Boards",
-          "architecture": "Seeed_STM32F4",
-          "version": "1.0.1",
-          "category": "Contributed",
-          "help": {
-            "online": "http://www.seeedstudio.com/wiki/Main_Page"
-          },
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_STM32F4_v1.0.1.tar.bz2",
-          "archiveFileName": "Seeed_STM32F4_v1.0.1.tar.bz2",
-          "checksum": "SHA-256:b58130ea6fea1b192d7edf676b33821ace7d6e303430828ddf65af0b7b65fcda",
-          "size": "196450",
-          "boards": [
-            {"name": "Wio LTE"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "stm32_dfu_upload_tool",
-              "version": "1.0.0"
-            }
-          ]
-        },
-        {
-          "name": "Seeed STM32F4 Boards",
-          "architecture": "Seeed_STM32F4",
-          "version": "1.1.0",
-          "category": "Contributed",
-          "help": {
-            "online": "http://www.seeedstudio.com/wiki/Main_Page"
-          },
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_STM32F4_v1.1.0.tar.bz2",
-          "archiveFileName": "Seeed_STM32F4_v1.1.0.tar.bz2",
-          "checksum": "SHA-256:f05d44450a2ed1fdf6a4eca1f1a917aac5dd967968bd521819eb259c412a6030",
-          "size": "210423",
-          "boards": [
-            {"name": "Wio LTE"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "stm32_dfu_upload_tool",
-              "version": "1.0.0"
-            }
-          ]
-        },
-        {
-          "name": "Seeed STM32F4 Boards",
-          "architecture": "Seeed_STM32F4",
-          "version": "1.1.1",
-          "category": "Contributed",
-          "help": {
-            "online": "http://www.seeedstudio.com/wiki/Main_Page"
-          },
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_STM32F4_v1.1.1.tar.bz2",
-          "archiveFileName": "Seeed_STM32F4_v1.1.1.tar.bz2",
-          "checksum": "SHA-256:5a0a407489ad19dac7bf90cc27a1c9fb891c052cecc9f98c351e20f424e2f005",
-          "size": "196166",
-          "boards": [
-            {
-              "name": "Wio LTE"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "stm32_dfu_upload_tool",
-              "version": "1.0.0"
-            }
-          ]
-        },
-        {
-          "name": "RePhone core 2G-Atmel32u4",
-          "architecture": "RePhone_core_2G_Atmel32u4",
-          "version": "1.0.0",
-          "category": "Contributed",
-          "help": {
-            "online": "http://www.seeedstudio.com/wiki/Main_Page"
-          },
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/RePhone_core_2G_Atmel32u4_v1.0.0.tar.bz2",
-          "archiveFileName": "RePhone_core_2G_Atmel32u4_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:022c8ebadee01d8f6db0acae4222547a002e3fbde6e19e6309bdf3f8ecafd3f9",
-          "size": "4809292",
-          "boards": [
-            {
-              "name": "RePhone core 2G-Atmel32u4"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "avr-gcc",
-              "version": "4.8.1-arduino5"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "avrdude",
-              "version": "6.0.1-arduino5"
-            }
-          ]
-        },
-        {
-          "name": "RePhone core 2G-AtmelSAMD21",
-          "architecture": "RePhone_core_2G_AtmelSAMD21",
-          "version": "1.0.0",
-          "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/RePhone_core_2G_AtmelSAMD21_v1.0.0.tar.bz2",
-          "archiveFileName": "RePhone_core_2G_AtmelSAMD21_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:a37c3824447d7f07e50cb104cc7a51a5f6fb723719e15e609cec9ecfa92152e4",
-          "size": "1888166",
-          "boards": [
-            {
-              "name": "RePhone core 2G-AtmelSAMD21"
-            }
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "bossac",
-              "version": "1.6.1-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "openocd",
-              "version": "0.9.0-arduino"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "CMSIS",
-              "version": "4.0.0-atmel"
-            }
-          ]
-        },
-        {
-          "name": "Rephone core 2G MT2502",
-          "architecture": "Rephone_core_2G_MT2502",
-          "version": "1.0.0",
-          "category": "Contributed",
-          "help": {
-            "online": "http://www.seeedstudio.com/forum/viewforum.php?f=71"
-          },
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/RePhone_core_2G_MT2502_v1.0.0.tar.bz2",
-          "archiveFileName": "RePhone_core_2G_MT2502_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:2efd5b9abd4ed64abcfc696ce6fa40924298aa0209fa67b1bff68bb9dadf9ecc",
-          "size": "249744",
-          "boards": [
-            {"name": "Rephone core 2G MT2502"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "linkit_tools",
-              "version": "1.1.21"
-            }
-          ]
-        },
-        {
-          "name": "Rephone core 2G MT2502",
-          "architecture": "Rephone_core_2G_MT2502",
-          "version": "1.0.1",
-          "category": "Contributed",
-          "help": {
-            "online": "http://www.seeedstudio.com/forum/viewforum.php?f=71"
-          },
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/RePhone_core_2G_MT2502_v1.0.1.tar.bz2",
-          "archiveFileName": "RePhone_core_2G_MT2502_v1.0.1.tar.bz2",
-          "checksum": "SHA-256:d44482b81200fa974b0cefe30ea07399103b501dfe03be6956bc2b038c7e004b",
-          "size": "251239",
-          "boards": [
-            {"name": "Rephone core 2G MT2502"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "linkit_tools",
-              "version": "1.1.21"
-            }
-          ]
-        },
-        {
-          "name": "LinkIt ONE",
-          "architecture": "LinkIt_ONE",
-          "version": "1.1.23",
-          "category": "Contributed",
-          "help": {
-            "online": "http://labs.mediatek.com/forums/forums/show/11.page"
-          },
-          "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_(for_arduino_1.6)-1.1.23.zip",
-          "archiveFileName": "mediatek_linkit_sdk_(for_arduino_1.6)-1.1.23.zip",
-          "checksum": "SHA-256:36452fa39473c12cc4974a86bc0f3ab33d04eba85f32a3dc1297866fd0a61872",
-          "size": "751040",
-          "boards": [
-            {"name": "LinkIt ONE"}
-          ],
-          "toolsDependencies": [
-            {
-              "packager": "Seeeduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "4.8.3-2014q1"
-            },
-            {
-              "packager": "Seeeduino",
-              "name": "linkit_tools",
-              "version": "1.1.23"
-            }
-          ]
-        }
-      ],
-      "tools": [
-        {
-          "name": "arm-none-eabi-gcc",
-          "version": "4.8.3-2014q1",
-          "systems": [
-            {
-              "host": "arm-linux-gnueabihf",
-              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-arm.tar.bz2",
-              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-arm.tar.bz2",
-              "checksum": "SHA-256:ebe96b34c4f434667cab0187b881ed585e7c7eb990fe6b69be3c81ec7e11e845",
-              "size": "44423906"
-            },
-            {
-              "host": "i686-mingw32",
-              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
-              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
-              "checksum": "SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
-              "size": "84537449"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
-              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
-              "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
-              "size": "52518522"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
-              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
-              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
-              "size": "51395093"
-            },
-            {
-              "host": "i686-pc-linux-gnu",
-              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
-              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
-              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
-              "size": "51029223"
-            }
-          ]
-        },
-        {
-          "name": "bossac",
-          "version": "1.6.1-arduino",
-          "systems": [
-            {
-              "host": "arm-linux-gnueabihf",
-              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-arm-linux-gnueabihf.tar.bz2",
-              "archiveFileName": "bossac-1.6.1-arduino-arm-linux-gnueabihf.tar.bz2",
-              "checksum": "SHA-256:8c4e63db982178919c824e7a35580dffc95c3426afa7285de3eb583982d4d391",
-              "size": "201341"
-            },
-            {
-              "host": "i686-mingw32",
-              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-mingw32.tar.gz",
-              "archiveFileName": "bossac-1.6.1-arduino-mingw32.tar.gz",
-              "checksum": "SHA-256:d59f43e2e83a337d04c4ae88b195a4ee175b8d87fff4c43144d23412a4a9513b",
-              "size": "222918"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-i386-apple-darwin14.5.0.tar.gz",
-              "archiveFileName": "bossac-1.6.1-arduino-i386-apple-darwin14.5.0.tar.gz",
-              "checksum": "SHA-256:2f80ef569a3fb19da60ab3489e49d8fe7d4699876acf30ff4938c632230a09aa",
-              "size": "64587"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-x86_64-linux-gnu.tar.gz",
-              "archiveFileName": "bossac-1.6.1-arduino-x86_64-linux-gnu.tar.gz",
-              "checksum": "SHA-256:b78afc66c00ccfdd69a08bd3959c260a0c64ccce78a71d5a1135ae4437ff40db",
-              "size": "30869"
-            },
-            {
-              "host": "i686-pc-linux-gnu",
-              "url": "http://downloads.arduino.cc/bossac-1.6.1-arduino-i486-linux-gnu.tar.gz",
-              "archiveFileName": "bossac-1.6.1-arduino-i486-linux-gnu.tar.gz",
-              "checksum": "SHA-256:1e211347569d75193b337296a10dd25b0ce04419e3d7dc644355178b6b514f92",
-              "size": "30320"
-            }
-          ]
-        },
-        {
-          "name": "openocd",
-          "version": "0.9.0-arduino",
-          "systems": [
-            {
-              "host": "arm-linux-gnueabihf",
-              "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-arm-linux-gnueabihf.tar.bz2",
-              "archiveFileName": "OpenOCD-0.9.0-dev-arduino-arm-linux-gnueabihf.tar.bz2",
-              "checksum": "SHA-256:a84e7c4cba853f2c937d77286f8a0ca317447d3873e51cbd2a2d41424e044a18",
-              "size": "1402283"
-            },
-            {
-              "host": "i686-mingw32",
-              "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-i686-pc-cygwin.tar.bz2",
-              "archiveFileName": "OpenOCD-0.9.0-arduino-i686-pc-cygwin.tar.bz2",
-              "checksum": "SHA-256:5310bdd3730168a33b09b68558e908ca8b2fec25620c488f50a5fb35d0d1effd",
-              "size": "2360705"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-x86_64-apple-darwin14.3.0.tar.bz2",
-              "archiveFileName": "OpenOCD-0.9.0-arduino-x86_64-apple-darwin14.3.0.tar.bz2",
-              "checksum": "SHA-256:ef90769c07b8018cec3a5054e690ac6c196e03720e102ac5038c3f9da4e44782",
-              "size": "2275101"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-x86_64-linux-gnu.tar.bz2",
-              "archiveFileName": "OpenOCD-0.9.0-arduino-x86_64-linux-gnu.tar.bz2",
-              "checksum": "SHA-256:c350409f7badf213dfcc516ea34289461ad92d87806e8e33945508a2c6b2c0b3",
-              "size": "1210796"
-            },
-            {
-              "host": "i686-pc-linux-gnu",
-              "url": "http://downloads.arduino.cc/tools/OpenOCD-0.9.0-arduino-i486-linux-gnu.tar.bz2",
-              "archiveFileName": "OpenOCD-0.9.0-arduino-i486-linux-gnu.tar.bz2",
-              "checksum": "SHA-256:4c9793dfd7822b0fc959d039e5ecabfa89092ee2911abfdc7b5905deb171499a",
-              "size": "1129654"
-            }
-          ]
-        },
-        {
-          "name": "CMSIS",
-          "version": "4.0.0-atmel",
-          "systems": [
-            {
-              "host": "arm-linux-gnueabihf",
-              "url": "http://downloads.arduino.cc/CMSIS-4.0.0.tar.bz2",
-              "archiveFileName": "CMSIS-4.0.0.tar.bz2",
-              "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
-              "size": "17642623"
-            },
-            {
-              "host": "i686-mingw32",
-              "url": "http://downloads.arduino.cc/CMSIS-4.0.0.tar.bz2",
-              "archiveFileName": "CMSIS-4.0.0.tar.bz2",
-              "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
-              "size": "17642623"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "http://downloads.arduino.cc/CMSIS-4.0.0.tar.bz2",
-              "archiveFileName": "CMSIS-4.0.0.tar.bz2",
-              "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
-              "size": "17642623"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "http://downloads.arduino.cc/CMSIS-4.0.0.tar.bz2",
-              "archiveFileName": "CMSIS-4.0.0.tar.bz2",
-              "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
-              "size": "17642623"
-            },
-            {
-              "host": "i686-pc-linux-gnu",
-              "url": "http://downloads.arduino.cc/CMSIS-4.0.0.tar.bz2",
-              "archiveFileName": "CMSIS-4.0.0.tar.bz2",
-              "checksum": "SHA-256:7d637d2d7a0c6bacc22065848a201db2fff124268e4a56868260d0f472b4bbb7",
-              "size": "17642623"
-            }
-          ]
-        },
-        {
-          "name": "avr-gcc",
-          "version": "4.8.1-arduino5",
-          "systems": [
-            {
-              "size": "24403768",
-              "checksum": "SHA-256:c8ffcd2db7a651b48ab4ea19db4b34fbae3e7f0210a0f294592af2bdabf2154b",
-              "host": "arm-linux-gnueabihf",
-              "archiveFileName": "avr-gcc-4.8.1-arduino5-armhf-pc-linux-gnu.tar.bz2",
-              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-armhf-pc-linux-gnu.tar.bz2"
-            },
-            {
-              "size": "24437400",
-              "checksum": "SHA-256:111b3ef00d737d069eb237a8933406cbb928e4698689e24663cffef07688a901",
-              "host": "i386-apple-darwin11",
-              "archiveFileName": "avr-gcc-4.8.1-arduino5-i386-apple-darwin11.tar.bz2",
-              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-i386-apple-darwin11.tar.bz2"
-            },
-            {
-              "size": "27093036",
-              "checksum": "SHA-256:9054fcc174397a419ba56c4ce1bfcbcad275a6a080cc144905acc9b0351ee9cc",
-              "host": "x86_64-linux-gnu",
-              "archiveFileName": "avr-gcc-4.8.1-arduino5-x86_64-pc-linux-gnu.tar.bz2",
-              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-x86_64-pc-linux-gnu.tar.bz2"
-            },
-            {
-              "size": "25882375",
-              "checksum": "SHA-256:7648b7f549b37191da0b0be53bae791b652f82ac3cb4e7877f85075aaf32141f",
-              "host": "i686-linux-gnu",
-              "archiveFileName": "avr-gcc-4.8.1-arduino5-i686-pc-linux-gnu.tar.bz2",
-              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-i686-pc-linux-gnu.tar.bz2"
-            },
-            {
-              "size": "46044779",
-              "checksum": "SHA-256:d4303226a7b41d3c445d901b5aa5903458def3fc7b7ff4ffef37cabeb37d424d",
-              "host": "i686-mingw32",
-              "archiveFileName": "avr-gcc-4.8.1-arduino5-i686-mingw32.zip",
-              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-i686-mingw32.zip"
-            }
-          ]
-        },
-        {
-          "name": "avrdude",
-          "version": "6.0.1-arduino5",
-          "systems": [
-            {
-              "size": "267095",
-              "checksum": "SHA-256:23ea1341dbc117ec067f2eb1a498ad2bdd7d11fff0143c00b2e018c39804f6b4",
-              "host": "arm-linux-gnueabihf",
-              "archiveFileName": "avrdude-6.0.1-arduino5-armhf-pc-linux-gnu.tar.bz2",
-              "url": "http://downloads.arduino.cc/tools/avrdude-6.0.1-arduino5-armhf-pc-linux-gnu.tar.bz2"
-            },
-            {
-              "size": "264894",
-              "checksum": "SHA-256:41af8d3b0a586853c8317b4fb5163ca0db594a1870ddf680fd988c42166fc3e5",
-              "host": "i386-apple-darwin11",
-              "archiveFileName": "avrdude-6.0.1-arduino5-i386-apple-darwin11.tar.bz2",
-              "url": "http://downloads.arduino.cc/tools/avrdude-6.0.1-arduino5-i386-apple-darwin11.tar.bz2"
-            },
-            {
-              "size": "292629",
-              "checksum": "SHA-256:d826cca7383461f7e8adde686372cf900e9cb3afd639555cf2d6c645b283a476",
-              "host": "x86_64-linux-gnu",
-              "archiveFileName": "avrdude-6.0.1-arduino5-x86_64-pc-linux-gnu.tar.bz2",
-              "url": "http://downloads.arduino.cc/tools/avrdude-6.0.1-arduino5-x86_64-pc-linux-gnu.tar.bz2"
-            },
-            {
-              "size": "283121",
-              "checksum": "SHA-256:5933d66927bce46ababa9b68a8b7f1d53f68c4f3ff7a5ce4b85d7cf4e6c6bfee",
-              "host": "i686-linux-gnu",
-              "archiveFileName": "avrdude-6.0.1-arduino5-i686-pc-linux-gnu.tar.bz2",
-              "url": "http://downloads.arduino.cc/tools/avrdude-6.0.1-arduino5-i686-pc-linux-gnu.tar.bz2"
-            },
-            {
-              "size": "241634",
-              "checksum": "SHA-256:41f667f1f6a0ab8df46b4ffacd023176dcdef331d6db3b74bddd37d18cca0a44",
-              "host": "i686-mingw32",
-              "archiveFileName": "avrdude-6.0.1-arduino5-i686-mingw32.zip",
-              "url": "http://downloads.arduino.cc/tools/avrdude-6.0.1-arduino5-i686-mingw32.zip"
-            }
-          ]
-        },
-        {
-          "name": "linkit_tools",
-          "version": "1.1.21",
-          "systems": [
-            {
-              "host": "i686-mingw32",
-              "archiveFileName": "mediatek_linkit_sdk_tool_windows-1.1.21.zip",
-              "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_windows-1.1.21.zip",
-              "checksum": "SHA-256:d3d049f04385c17cc177d1562455c96275f2bed202360d09afcf4ea133f98632",
-              "size": "16374486"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "archiveFileName": "mediatek_linkit_sdk_tool_osx-1.1.21.tar.gz",
-              "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_osx-1.1.21.tar.gz",
-              "checksum": "SHA-256:5de591b1d4143ddcc9e4e98d2fca2905a4ec0666bbb46e2aa089d9234f078738",
-              "size": "16411173"
-            }
-          ]
-        },
-        {
-          "name": "linkit_tools",
-          "version": "1.1.23",
-          "systems": [
-            {
-              "host": "i686-mingw32",
-              "archiveFileName": "mediatek_linkit_sdk_tool_windows-1.1.23.zip",
-              "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_windows-1.1.23.zip",
-              "checksum": "SHA-256:82ce1d4a7a90737501d9a25ded6401d468ccd837b41b6f96c1e184cafd76705e",
-              "size": "16374062"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "archiveFileName": "mediatek_linkit_sdk_tool_osx-1.1.23.tar.gz",
-              "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_osx-1.1.23.tar.gz",
-              "checksum": "SHA-256:3d5d72d937255f69692cf18cfc829125e9583c2ed3058bb47cff973ceebfdec6",
-              "size": "16410334"
-            }
-          ]
-        },
-        {
-          "name": "stm32_dfu_upload_tool",
-          "version": "1.0.0",
-          "systems": [
-            {
-              "host": "i686-mingw32",
-              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
-              "size": "370492"
-            },
-            {
-              "host": "x86_64-apple-darwin",
-              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
-              "size": "370492"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
-              "size": "370492"
-            },
-            {
-              "host": "i686-pc-linux-gnu",
-              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
-              "size": "370492"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+        ]
+    }]
 }
