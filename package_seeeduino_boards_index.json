@@ -461,7 +461,7 @@
                 },
                 "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_STM32F4_v1.1.3.tar.bz2",
                 "archiveFileName": "Seeed_STM32F4_v1.1.3.tar.bz2",
-                "checksum": "SHA-256:75833587fce4aa7fb33a746b5abb4df0f9d876a875f48568bfd1924b39db499a",
+                "checksum": "SHA-256:540fc02faf2fcc8608c5f45d99f04084ab71f44959bd63d75a81544bc66497db",
                 "size": "238419",
                 "boards": [{
                     "name": "Wio LTE"
