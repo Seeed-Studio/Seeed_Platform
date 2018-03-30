@@ -380,6 +380,42 @@
                 ]
             },
             {
+                "name": "Seeeduino SAMD",
+                "architecture": "Seeeduino_SAMD",
+                "version": "1.2.0",
+                "category": "Contributed",
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.2.0.tar.bz2",
+                "archiveFileName": "Seeeduino_SAMD_v1.2.0.tar.bz2",
+                "checksum": "SHA-256:947652e7de2f35aa5e8f0888245780b287681edf518a1090219e7f84dad035c7",
+                "size": "710696",
+                "boards": [
+                    { "name": "Seeeduino Zero" },
+                    { "name": "Seeeduino LoRaWAN" },
+                    { "name": "Seeed Wio Tracker" }
+                ],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "bossac",
+                        "version": "1.6.1-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "openocd",
+                        "version": "0.9.0-arduino"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "CMSIS",
+                        "version": "4.0.0-atmel"
+                    }
+                ]
+            },
+            {
                 "name": "Seeed STM32F4 Boards",
                 "architecture": "Seeed_STM32F4",
                 "version": "1.0.1",
