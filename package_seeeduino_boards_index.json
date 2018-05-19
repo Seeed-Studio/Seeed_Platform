@@ -578,6 +578,33 @@
                 ]
             },
             {
+                "name": "Seeed STM32F4 Boards",
+                "architecture": "Seeed_STM32F4",
+                "version": "1.2.1",
+                "category": "Contributed",
+                "help": {
+                    "online": "https://github.com/Seeed-Studio/stm32f4ArduinoCore"
+                },
+                "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_STM32F4_v1.2.1.tar.bz2",
+                "archiveFileName": "Seeed_STM32F4_v1.2.1.tar.bz2",
+                "checksum": "SHA-256:f2efe21ec3f7ae15a7d8f8ab624e7b99979132d488b342b8fef3635cbc474239",
+                "size": "234376",
+                "boards": [{
+                    "name": "Wio LTE"
+                }],
+                "toolsDependencies": [{
+                        "packager": "Seeeduino",
+                        "name": "arm-none-eabi-gcc",
+                        "version": "4.8.3-2014q1"
+                    },
+                    {
+                        "packager": "Seeeduino",
+                        "name": "stm32_dfu_upload_tool",
+                        "version": "1.0.0"
+                    }
+                ]
+            },
+            {
                 "name": "RePhone core 2G-Atmel32u4",
                 "architecture": "RePhone_core_2G_Atmel32u4",
                 "version": "1.0.0",
