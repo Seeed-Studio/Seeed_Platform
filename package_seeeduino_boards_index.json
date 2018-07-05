@@ -422,7 +422,7 @@
 		  "category": "Contributed",
 		  "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Lotus_M0_v1.0.0.tar.bz2",
 		  "archiveFileName": "Seeeduino_Lotus_M0_v1.0.0.tar.bz2",
-		  "checksum": "04042b99c68c6282f77fb450a76ce1a39a9a5345da1ccccc4b32012f75656afa",
+		  "checksum": "f357a6d0e13ca90306bbe4ac3a9fdc71c0cd4ea66dce6999677d1e68c7f2f2e0",
 		  "size": "203580",
 		  "boards": [
 		    {"name": "Seeeduino Lotus V2 - Cortex-M0"}
