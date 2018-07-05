@@ -449,7 +449,7 @@
 		      "version": "4.0.0-atmel"
 		    }
 		  ]
-		},
+	    },
             {
                 "name": "Seeed STM32F4 Boards",
                 "architecture": "Seeed_STM32F4",
