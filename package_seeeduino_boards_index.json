@@ -415,6 +415,41 @@
                     }
                 ]
             },
+	    {
+		  "name": "Seeeduino Lotus M0",
+		  "architecture": "Seeeduino_Lotus_M0",
+		  "version": "1.0.0",
+		  "category": "Contributed",
+		  "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Lotus_M0_v1.0.0.tar.bz2",
+		  "archiveFileName": "Seeeduino_Lotus_M0_v1.0.0.tar.bz2",
+		  "checksum": "04042b99c68c6282f77fb450a76ce1a39a9a5345da1ccccc4b32012f75656afa",
+		  "size": "203580",
+		  "boards": [
+		    {"name": "Seeeduino Lotus V2 - Cortex-M0"}
+		  ],
+		  "toolsDependencies": [
+		    {
+		      "packager": "Seeeduino",
+		      "name": "arm-none-eabi-gcc",
+		      "version": "4.8.3-2014q1"
+		    },
+		    {
+		      "packager": "Seeeduino",
+		      "name": "bossac",
+		      "version": "1.6.1-arduino"
+		    },
+		    {
+		      "packager": "Seeeduino",
+		      "name": "openocd",
+		      "version": "0.9.0-arduino"
+		    },
+		    {
+		      "packager": "Seeeduino",
+		      "name": "CMSIS",
+		      "version": "4.0.0-atmel"
+		    }
+		  ]
+		},
             {
                 "name": "Seeed STM32F4 Boards",
                 "architecture": "Seeed_STM32F4",
@@ -1034,3 +1069,5 @@
         ]
     }]
 }
+
+
