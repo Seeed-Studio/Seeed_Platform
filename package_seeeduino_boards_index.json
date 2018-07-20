@@ -914,7 +914,7 @@
         {
           "category": "Contributed", 
           "name": "Seeed ESP8266 Boards", 
-          "url": "https://github.com/esp8266/Arduino/releases/download/2.4.1/esp8266-2.4.1.zip", 
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_esp8266_v2.4.2.zip", 
           "checksum": "SHA-256:179232d559560c302b960b2b754320b226374fa708baf0cfd24bcb09b48e6f71", 
           "version": "2.4.2", 
           "architecture": "Seeed_esp8266", 
