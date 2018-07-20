@@ -915,7 +915,7 @@
           "category": "Contributed", 
           "name": "Seeed ESP8266 Boards", 
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_esp8266_v2.4.2.zip", 
-          "checksum": "SHA-256:179232d559560c302b960b2b754320b226374fa708baf0cfd24bcb09b48e6f71", 
+          "checksum": "SHA-256:96a3c3e32c6667c0441e173d62d2a3b248e110002a3456771d5ff21bdfa74159", 
           "version": "2.4.2", 
           "architecture": "Seeed_esp8266", 
           "archiveFileName": "Seeed_esp8266_v2.4.2.zip", 
@@ -924,7 +924,7 @@
               "name": "Seeed Wio Link"
             }
           ], 
-          "size": "12996931", 
+          "size": "13062946", 
           "toolsDependencies": [
             {
               "packager": "esp8266", 
