@@ -538,14 +538,14 @@
           ]
         },
         {
-          "name": "Seeeduino Lotus V2 M0",
-          "architecture": "Seeeduino_Lotus_V2_M0",
+          "name": "Seeeduino Lotus M0",
+          "architecture": "Seeeduino_Lotus_M0",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Lotus_V2_M0_v1.0.0.tar.bz2",
-          "archiveFileName": "Seeeduino_Lotus_V2_M0_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:78a53ad5ca2ade75c17686d814ce21b68bcb0527a8ef2bb635d964cbfa7b5a1e",
-          "size": "1258979",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Lotus_M0_v1.0.0.tar.bz2",
+          "archiveFileName": "Seeeduino_Lotus_M0_v1.0.0.tar.bz2",
+          "checksum": "SHA-256:0b0a53c13e494e131cabf0757223689be7714533dafc7f9d8abefa31701ca755",
+          "size": "1261005",
           "boards": [
             {
               "name": "Seeeduino Lotus V2 - Cortex-M0"
