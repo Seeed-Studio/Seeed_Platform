@@ -61,8 +61,8 @@
           },
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_AVR_v1.1.0.tar.bz2",
           "archiveFileName": "Seeeduino_AVR_v1.1.0.tar.bz2",
-          "checksum": "SHA-256:1506843fa20159bc97c134278588b6740632850e2b9854bc7f2c9a396601390f",
-          "size": "4975043",
+          "checksum": "SHA-256:ceeb3aa96c095d36ef1affb5488e657697fde1aefbe2a7e7cf1e299c9a91dcd3",
+          "size": "4974217",
           "boards": [
             {
               "name": "Seeeduino V3.0(Atmega328P)"
