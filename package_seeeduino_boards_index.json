@@ -1031,6 +1031,153 @@
           ]
         },
         {
+          "name": "CMSIS-Atmel",
+          "version": "1.0.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.0.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.0.0.tar.bz2",
+              "checksum": "SHA-256:b3c954570a2f8d9821c372e0864f5f0b86cfbeab8114ce95821f5c49758c7256",
+              "size": "1281654"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.0.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.0.0.tar.bz2",
+              "checksum": "SHA-256:b3c954570a2f8d9821c372e0864f5f0b86cfbeab8114ce95821f5c49758c7256",
+              "size": "1281654"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.0.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.0.0.tar.bz2",
+              "checksum": "SHA-256:b3c954570a2f8d9821c372e0864f5f0b86cfbeab8114ce95821f5c49758c7256",
+              "size": "1281654"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.0.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.0.0.tar.bz2",
+              "checksum": "SHA-256:b3c954570a2f8d9821c372e0864f5f0b86cfbeab8114ce95821f5c49758c7256",
+              "size": "1281654"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.0.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.0.0.tar.bz2",
+              "checksum": "SHA-256:b3c954570a2f8d9821c372e0864f5f0b86cfbeab8114ce95821f5c49758c7256",
+              "size": "1281654"
+            },
+            {
+              "host": "all",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.0.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.0.0.tar.bz2",
+              "checksum": "SHA-256:b3c954570a2f8d9821c372e0864f5f0b86cfbeab8114ce95821f5c49758c7256",
+              "size": "1281654"
+            }
+          ]
+        },
+        {
+          "name": "CMSIS-Atmel",
+          "version": "1.1.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.1.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.1.0.tar.bz2",
+              "checksum": "SHA-256:3ea5ec0451f42dc2b97f869b027a9cf696241cfc927cfc48d74ccc7b396ba41b",
+              "size": "1659108"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.1.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.1.0.tar.bz2",
+              "checksum": "SHA-256:3ea5ec0451f42dc2b97f869b027a9cf696241cfc927cfc48d74ccc7b396ba41b",
+              "size": "1659108"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.1.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.1.0.tar.bz2",
+              "checksum": "SHA-256:3ea5ec0451f42dc2b97f869b027a9cf696241cfc927cfc48d74ccc7b396ba41b",
+              "size": "1659108"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.1.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.1.0.tar.bz2",
+              "checksum": "SHA-256:3ea5ec0451f42dc2b97f869b027a9cf696241cfc927cfc48d74ccc7b396ba41b",
+              "size": "1659108"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.1.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.1.0.tar.bz2",
+              "checksum": "SHA-256:3ea5ec0451f42dc2b97f869b027a9cf696241cfc927cfc48d74ccc7b396ba41b",
+              "size": "1659108"
+            },
+            {
+              "host": "all",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.1.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.1.0.tar.bz2",
+              "checksum": "SHA-256:3ea5ec0451f42dc2b97f869b027a9cf696241cfc927cfc48d74ccc7b396ba41b",
+              "size": "1659108"
+            }
+          ]
+        },
+        {
+          "name": "CMSIS-Atmel",
+          "version": "1.2.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.2.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.0.tar.bz2",
+              "checksum": "SHA-256:5e02670be7e36be9691d059bee0b04ee8b249404687531f33893922d116b19a5",
+              "size": "2221805"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/CMSIS-Atmel-1.2.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.0.tar.bz2",
+              "checksum": "SHA-256:5e02670be7e36be9691d059bee0b04ee8b249404687531f33893922d116b19a5",
+              "size": "2221805"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://downloads.arduino.cc/CMSIS-Atmel-1.2.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.0.tar.bz2",
+              "checksum": "SHA-256:5e02670be7e36be9691d059bee0b04ee8b249404687531f33893922d116b19a5",
+              "size": "2221805"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://downloads.arduino.cc/CMSIS-Atmel-1.2.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.0.tar.bz2",
+              "checksum": "SHA-256:5e02670be7e36be9691d059bee0b04ee8b249404687531f33893922d116b19a5",
+              "size": "2221805"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://downloads.arduino.cc/CMSIS-Atmel-1.2.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.0.tar.bz2",
+              "checksum": "SHA-256:5e02670be7e36be9691d059bee0b04ee8b249404687531f33893922d116b19a5",
+              "size": "2221805"
+            },
+            {
+              "host": "all",
+              "url": "https://downloads.arduino.cc/CMSIS-Atmel-1.2.0.tar.bz2",
+              "archiveFileName": "CMSIS-Atmel-1.2.0.tar.bz2",
+              "checksum": "SHA-256:5e02670be7e36be9691d059bee0b04ee8b249404687531f33893922d116b19a5",
+              "size": "2221805"
+            }
+          ]
+        },
+        {
           "name": "openocd",
           "version": "0.9.0-arduino",
           "systems": [
