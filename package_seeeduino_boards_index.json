@@ -1114,42 +1114,42 @@
         },
         {
           "name": "avr-gcc",
-          "version": "4.9.2-atmel3.5.4-arduino2",
+          "version": "4.8.1-arduino5",
           "systems": [
             {
-              "size": "27764772",
-              "checksum": "SHA-256:ee36009e19bd238d1f6351cbc9aa5db69714761f67dec4c1d69d5d5d7758720c",
+              "size": "24403768",
+              "checksum": "SHA-256:c8ffcd2db7a651b48ab4ea19db4b34fbae3e7f0210a0f294592af2bdabf2154b",
               "host": "arm-linux-gnueabihf",
-              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-armhf-pc-linux-gnu.tar.bz2",
-              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-armhf-pc-linux-gnu.tar.bz2"
+              "archiveFileName": "avr-gcc-4.8.1-arduino5-armhf-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-armhf-pc-linux-gnu.tar.bz2"
             },
             {
-              "size": "28574644",
-              "checksum": "SHA-256:67b3ed3555eacf0b4fc6f62240773b9f0220171fe4de26bb8d711547fc884730",
+              "size": "24437400",
+              "checksum": "SHA-256:111b3ef00d737d069eb237a8933406cbb928e4698689e24663cffef07688a901",
               "host": "i386-apple-darwin11",
-              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-i386-apple-darwin11.tar.bz2",
-              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-i386-apple-darwin11.tar.bz2"
+              "archiveFileName": "avr-gcc-4.8.1-arduino5-i386-apple-darwin11.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-i386-apple-darwin11.tar.bz2"
             },
             {
-              "size": "44386446",
-              "checksum": "SHA-256:6044551cd729d88ea6ffcccf10aad1934c5b164d61f4f5890b0e78524ffff853",
-              "host": "i686-mingw32",
-              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-i686-mingw32.zip",
-              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-i686-mingw32.zip"
-            },
-            {
-              "size": "29723974",
-              "checksum": "SHA-256:63a9d4cebbac06fd5fa8f48a2e2ba7d513837dcddc97f560129b4e466af901b5",
-              "host": "i686-linux-gnu",
-              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-i686-pc-linux-gnu.tar.bz2",
-              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-i686-pc-linux-gnu.tar.bz2"
-            },
-            {
-              "size": "30374404",
-              "checksum": "SHA-256:19480217f1524d78467b83cd742f503182bbcc76b5440093261f146828aa588c",
+              "size": "27093036",
+              "checksum": "SHA-256:9054fcc174397a419ba56c4ce1bfcbcad275a6a080cc144905acc9b0351ee9cc",
               "host": "x86_64-linux-gnu",
-              "archiveFileName": "avr-gcc-4.9.2-atmel3.5.4-arduino2-x86_64-pc-linux-gnu.tar.bz2",
-              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.9.2-atmel3.5.4-arduino2-x86_64-pc-linux-gnu.tar.bz2"
+              "archiveFileName": "avr-gcc-4.8.1-arduino5-x86_64-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-x86_64-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "25882375",
+              "checksum": "SHA-256:7648b7f549b37191da0b0be53bae791b652f82ac3cb4e7877f85075aaf32141f",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "avr-gcc-4.8.1-arduino5-i686-pc-linux-gnu.tar.bz2",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-i686-pc-linux-gnu.tar.bz2"
+            },
+            {
+              "size": "46044779",
+              "checksum": "SHA-256:d4303226a7b41d3c445d901b5aa5903458def3fc7b7ff4ffef37cabeb37d424d",
+              "host": "i686-mingw32",
+              "archiveFileName": "avr-gcc-4.8.1-arduino5-i686-mingw32.zip",
+              "url": "http://downloads.arduino.cc/tools/avr-gcc-4.8.1-arduino5-i686-mingw32.zip"
             }
           ]
         },
