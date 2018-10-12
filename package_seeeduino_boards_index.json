@@ -555,8 +555,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Lotus_M0_v1.0.0.tar.bz2",
           "archiveFileName": "Seeeduino_Lotus_M0_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:13b01a5a5dbe8ef32da33e65ee3f381eb79615d5340d426376b87d8f11ebb127",
-          "size": "1256684",
+          "checksum": "SHA-256:b1b48d672e015cda1522123a1d1614391d185e1789349a8686cb6298826b69ee",
+          "size": "1251216",
           "boards": [
             {
               "name": "Seeeduino Lotus - Cortex-M0+"
@@ -600,10 +600,10 @@
           "architecture": "Seeeduino_Cortex_M0+",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "",
-          "archiveFileName": "",
-          "checksum": "",
-          "size": "",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Cortex_M0+_v1.0.0.tar.bz2",
+          "archiveFileName": "Seeeduino_Cortex_M0+_v1.0.0.tar.bz2",
+          "checksum": "b2cf6d9fb5b99d27811f1539210b459ff21341c13d7f03253ee7bd8e397c60c2",
+          "size": "1236729",
           "boards": [
             {
               "name": "Seeeduino Cortex-M0+"
