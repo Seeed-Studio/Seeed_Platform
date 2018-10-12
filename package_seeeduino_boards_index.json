@@ -602,8 +602,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Cortex_M0+_v1.0.0.tar.bz2",
           "archiveFileName": "Seeeduino_Cortex_M0+_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:b2cf6d9fb5b99d27811f1539210b459ff21341c13d7f03253ee7bd8e397c60c2",
-          "size": "1236729",
+          "checksum": "SHA-256:6ffa9a697b57412d28a49359120ca31b7bb76180185e9430890d5ed9c0a93e08",
+          "size": "2054670",
           "boards": [
             {
               "name": "Seeeduino Cortex-M0+"
