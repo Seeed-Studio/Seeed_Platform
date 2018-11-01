@@ -668,7 +668,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.0"
+              "version": "1.0.1"
             }
           ]
         },
@@ -698,7 +698,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.0"
+              "version": "1.0.1"
             }
           ]
         },
@@ -728,7 +728,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.0"
+              "version": "1.0.1"
             }
           ]
         },
@@ -758,7 +758,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.0"
+              "version": "1.0.1"
             }
           ]
         },
@@ -788,7 +788,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.0"
+              "version": "1.0.1"
             }
           ]
         },
@@ -818,7 +818,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.0"
+              "version": "1.0.1"
             }
           ]
         },
@@ -848,7 +848,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.0"
+              "version": "1.0.1"
             }
           ]
         },
@@ -1873,6 +1873,47 @@
               "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
               "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
               "size": "370492"
+            }
+          ]
+        },
+        {
+          "name": "stm32_dfu_upload_tool",
+          "version": "1.0.1",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.1.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.1.tar.bz2",
+              "checksum": "SHA-256:8f022036f18568d9f337058566c24bd722eeb5220b5c03169779f23195441030",
+              "size": "546931"
+            },
+            {
+              "host": "arm-linux-gnueabihf",
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.1.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.1.tar.bz2",
+              "checksum": "SHA-256:8f022036f18568d9f337058566c24bd722eeb5220b5c03169779f23195441030",
+              "size": "546931"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.1.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.1.tar.bz2",
+              "checksum": "SHA-256:8f022036f18568d9f337058566c24bd722eeb5220b5c03169779f23195441030",
+              "size": "546931"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.1.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.1.tar.bz2",
+              "checksum": "SHA-256:8f022036f18568d9f337058566c24bd722eeb5220b5c03169779f23195441030",
+              "size": "546931"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.1.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.1.tar.bz2",
+              "checksum": "SHA-256:8f022036f18568d9f337058566c24bd722eeb5220b5c03169779f23195441030",
+              "size": "546931"
             }
           ]
         },
