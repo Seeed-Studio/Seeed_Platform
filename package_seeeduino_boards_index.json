@@ -1854,69 +1854,35 @@
               "size": "370492"
             },
             {
-              "host": "x86_64-apple-darwin",
-              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
-              "size": "370492"
-            },
-            {
-              "host": "x86_64-pc-linux-gnu",
-              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
-              "size": "370492"
-            },
-            {
-              "host": "i686-pc-linux-gnu",
-              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
-              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
-              "size": "370492"
-            }
-          ]
-        },
-        {
-          "name": "stm32_dfu_upload_tool",
-          "version": "1.0.1",
-          "systems": [
-            {
-              "host": "i686-mingw32",
-              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.1.tar.bz2",
-              "archiveFileName": "stm32_dfu_upload_tool_v1.0.1.tar.bz2",
-              "checksum": "SHA-256:8f022036f18568d9f337058566c24bd722eeb5220b5c03169779f23195441030",
-              "size": "546931"
-            },
-            {
               "host": "arm-linux-gnueabihf",
-              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.1.tar.bz2",
-              "archiveFileName": "stm32_dfu_upload_tool_v1.0.1.tar.bz2",
-              "checksum": "SHA-256:8f022036f18568d9f337058566c24bd722eeb5220b5c03169779f23195441030",
-              "size": "546931"
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_arm.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_arm.tar.bz2",
+              "checksum": "SHA-256:90762998220078436fcc4c6a6d09e1a4b70f38d95b56bc14f6a7f7cbf5b5cdfc",
+              "size": "195210"
             },
             {
               "host": "x86_64-apple-darwin",
-              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.1.tar.bz2",
-              "archiveFileName": "stm32_dfu_upload_tool_v1.0.1.tar.bz2",
-              "checksum": "SHA-256:8f022036f18568d9f337058566c24bd722eeb5220b5c03169779f23195441030",
-              "size": "546931"
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+              "size": "370492"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.1.tar.bz2",
-              "archiveFileName": "stm32_dfu_upload_tool_v1.0.1.tar.bz2",
-              "checksum": "SHA-256:8f022036f18568d9f337058566c24bd722eeb5220b5c03169779f23195441030",
-              "size": "546931"
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+              "size": "370492"
             },
             {
               "host": "i686-pc-linux-gnu",
-              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.1.tar.bz2",
-              "archiveFileName": "stm32_dfu_upload_tool_v1.0.1.tar.bz2",
-              "checksum": "SHA-256:8f022036f18568d9f337058566c24bd722eeb5220b5c03169779f23195441030",
-              "size": "546931"
+              "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "archiveFileName": "stm32_dfu_upload_tool_v1.0.0.tar.bz2",
+              "checksum": "SHA-256:7c02b3d32919cb49a5cca68ae945166c112beb944c978cc2a8d89f753fa80062",
+              "size": "370492"
             }
           ]
-        },
+        },       
         {
           "version": "0.4.13",
           "name": "esptool",
