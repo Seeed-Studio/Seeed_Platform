@@ -668,7 +668,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.1"
+              "version": "1.0.0"
             }
           ]
         },
@@ -698,7 +698,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.1"
+              "version": "1.0.0"
             }
           ]
         },
@@ -728,7 +728,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.1"
+              "version": "1.0.0"
             }
           ]
         },
@@ -758,7 +758,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.1"
+              "version": "1.0.0"
             }
           ]
         },
@@ -788,7 +788,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.1"
+              "version": "1.0.0"
             }
           ]
         },
@@ -818,7 +818,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.1"
+              "version": "1.0.0"
             }
           ]
         },
@@ -848,7 +848,7 @@
             {
               "packager": "Seeeduino",
               "name": "stm32_dfu_upload_tool",
-              "version": "1.0.1"
+              "version": "1.0.0"
             }
           ]
         },
