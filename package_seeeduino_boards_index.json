@@ -543,6 +543,49 @@
           ]
         },
         {
+          "name": "Seeed SAMD Boards",
+          "architecture": "samd",
+          "version": "1.3.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_v1.3.0.tar.bz2",
+          "archiveFileName": "Seeeduino_SAMD_v1.3.0.tar.bz2",
+          "checksum": "SHA-256:d0e16988a8ea2ee30947ada2786e9d753f8f09623fb883e0c0e0c615cbb4caa3",
+          "size": "1888715",
+          "boards": [
+            {
+              "name": "Seeeduino Zero"
+            },
+            {
+              "name": "Seeeduino LoRaWAN"
+            },
+            {
+              "name": "Seeed Wio Tracker"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Seeeduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "bossac",
+              "version": "1.6.1-arduino"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "CMSIS",
+              "version": "4.0.0-atmel"
+            }
+          ]
+        },
+        {
           "name": "Seeeduino Lotus M0",
           "architecture": "Seeeduino_Lotus_M0",
           "version": "1.0.0",
