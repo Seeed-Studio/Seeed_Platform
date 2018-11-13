@@ -159,7 +159,7 @@
           ]
         },
         {
-          "name": "Seeeduino SAMD Boards",
+          "name": "Seeed SAMD Boards",
           "architecture": "samd",
           "version": "1.0.0",
           "category": "Contributed",
@@ -199,7 +199,7 @@
           ]
         },
         {
-          "name": "Seeeduino SAMD Boards",
+          "name": "Seeed SAMD Boards",
           "architecture": "samd",
           "version": "1.1.0",
           "category": "Contributed",
@@ -242,7 +242,7 @@
           ]
         },
         {
-          "name": "Seeeduino SAMD Boards",
+          "name": "Seeed SAMD Boards",
           "architecture": "samd",
           "version": "1.1.1",
           "category": "Contributed",
@@ -285,7 +285,7 @@
           ]
         },
         {
-          "name": "Seeeduino SAMD Boards",
+          "name": "Seeed SAMD Boards",
           "architecture": "samd",
           "version": "1.1.2",
           "category": "Contributed",
@@ -328,7 +328,7 @@
           ]
         },
         {
-          "name": "Seeeduino SAMD Boards",
+          "name": "Seeed SAMD Boards",
           "architecture": "samd",
           "version": "1.1.3",
           "category": "Contributed",
@@ -371,7 +371,7 @@
           ]
         },
         {
-          "name": "Seeeduino SAMD Boards",
+          "name": "Seeed SAMD Boards",
           "architecture": "samd",
           "version": "1.1.4",
           "category": "Contributed",
@@ -414,7 +414,7 @@
           ]
         },
         {
-          "name": "Seeeduino SAMD Boards",
+          "name": "Seeed SAMD Boards",
           "architecture": "samd",
           "version": "1.1.5",
           "category": "Contributed",
@@ -457,7 +457,7 @@
           ]
         },
         {
-          "name": "Seeeduino SAMD Boards",
+          "name": "Seeed SAMD Boards",
           "architecture": "samd",
           "version": "1.1.6",
           "category": "Contributed",
@@ -500,7 +500,7 @@
           ]
         },
         {
-          "name": "Seeeduino SAMD Boards",
+          "name": "Seeed SAMD Boards",
           "architecture": "samd",
           "version": "1.2.0",
           "category": "Contributed",
