@@ -37,9 +37,6 @@
             {
               "name": "Seeeduino Lite"
             },
-            {
-              "name": "Seeeduino Cortex-M0+"
-            }
           ],
           "toolsDependencies": [
             {
@@ -82,9 +79,6 @@
             {
               "name": "Seeeduino Lite"
             },
-            {
-              "name": "Seeeduino Cortex-M0+"
-            }
           ],
           "toolsDependencies": [
             {
@@ -106,7 +100,7 @@
         },
         {
           "name": "Seeeduino Stalker V3",
-          "architecture": "avr",
+          "architecture": "Seeeduino_Stalker",
           "version": "1.0.1",
           "category": "Contributed",
           "help": {
@@ -136,7 +130,7 @@
         },
         {
           "name": "Seeeduino Stalker V3",
-          "architecture": "avr",
+          "architecture": "Seeeduino_Stalker",
           "version": "1.0.2",
           "category": "Contributed",
           "help": {
@@ -550,7 +544,7 @@
         },
         {
           "name": "Seeeduino Lotus M0",
-          "architecture": "samd",
+          "architecture": "Seeeduino_Lotus_M0",
           "version": "1.0.0",
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Lotus_M0_v1.0.0.tar.bz2",
@@ -597,7 +591,7 @@
         },
 		{
           "name": "Seeeduino Cortex M0+",
-          "architecture": "samd",
+          "architecture": "Seeeduino_Cortex_M0+",
           "version": "1.0.0",
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Cortex_M0+_v1.0.0.tar.bz2",
@@ -854,7 +848,7 @@
         },
         {
           "name": "RePhone core 2G-Atmel32u4",
-          "architecture": "avr",
+          "architecture": "RePhone_core_2G_Atmel32u4",
           "version": "1.0.0",
           "category": "Contributed",
           "help": {
@@ -884,7 +878,7 @@
         },
         {
           "name": "RePhone core 2G-AtmelSAMD21",
-          "architecture": "samd",
+          "architecture": "RePhone_core_2G_AtmelSAMD21",
           "version": "1.0.0",
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/RePhone_core_2G_AtmelSAMD21_v1.0.0.tar.bz2",
