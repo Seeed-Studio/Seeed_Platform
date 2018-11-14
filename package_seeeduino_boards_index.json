@@ -899,7 +899,7 @@
           },
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeed_STM32F4_v1.2.4.tar.bz2",
           "archiveFileName": "Seeed_STM32F4_v1.2.4.tar.bz2",
-          "checksum": "SHA-256:8bd96bf9ec6081cf19580bb04bb89422f58eb5dc2680ce6b0415065cbafc30f2",
+          "checksum": "SHA-256:cbee985d6d76f29b466d74b10f6a0195294eab95341eb597cfb3b84de3699533",
           "size": "697230",
           "boards": [
             {
