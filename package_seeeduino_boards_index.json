@@ -32,9 +32,6 @@
               "name": "Seeeduino V4(Atmega328P)"
             },
             {
-              "name": "Seeeduino Lotus"
-            },
-            {
               "name": "Seeeduino Lite"
             }
           ],
@@ -72,9 +69,6 @@
             },
             {
               "name": "Seeeduino V4(Atmega328P)"
-            },
-            {
-              "name": "Seeeduino Lotus"
             },
             {
               "name": "Seeeduino Lite"
@@ -639,8 +633,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Cortex_M0+_v1.0.0.tar.bz2",
           "archiveFileName": "Seeeduino_Cortex_M0+_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:6ffa9a697b57412d28a49359120ca31b7bb76180185e9430890d5ed9c0a93e08",
-          "size": "2054670",
+          "checksum": "SHA-256:da07cfb0e03fbc8e33e42bc19024403b6541538c7582a5080cd77aa39011919e",
+          "size": "2054119",
           "boards": [
             {
               "name": "Seeeduino Cortex-M0+"
