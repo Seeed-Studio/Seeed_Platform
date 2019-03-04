@@ -100,7 +100,7 @@
           "help": {
             "online": "http://wiki.seeedstudio.com/"
           },
-          "url": "https://raw.githubusercontent.com/Jenkinlu001/Seeed_Platform/master/Seeeduino_AVR_v1.1.2.tar.bz2",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_AVR_v1.1.2.tar.bz2",
           "archiveFileName": "Seeeduino_AVR_v1.1.2.tar.bz2",
           "checksum": "SHA-256:8c658585cd77541df103eb69436eba4e3fbebc26a5556c2af7ac2bb70ff965da",
           "size": "7658162",
