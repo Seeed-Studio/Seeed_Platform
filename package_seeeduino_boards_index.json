@@ -93,6 +93,53 @@
           ]
         },
         {
+          "name": "Seeeduino AVR",
+          "architecture": "avr",
+          "version": "1.1.2",
+          "category": "Contributed",
+          "help": {
+            "online": "http://wiki.seeedstudio.com/"
+          },
+          "url": "https://raw.githubusercontent.com/Jenkinlu001/Seeed_Platform/master/Seeeduino_AVR_v1.1.2.tar.bz2",
+          "archiveFileName": "Seeeduino_AVR_v1.1.2.tar.bz2",
+          "checksum": "SHA-256:8c658585cd77541df103eb69436eba4e3fbebc26a5556c2af7ac2bb70ff965da",
+          "size": "7658162",
+          "boards": [
+            {
+              "name": "Seeeduino V3.0(Atmega328P)"
+            },
+            {
+              "name": "Seeeduino Mega 2560"
+            },
+            {
+              "name": "Seeeduino V4(Atmega328P)"
+            },
+            {
+              "name": "Seeeduino Lite"
+            },
+            {
+              "name": "Seeeduino Nano"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Seeeduino",
+              "name": "avr-gcc",
+              "version": "4.9.2-atmel3.5.4-arduino2"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino9"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "arduinoOTA",
+              "version": "1.1.1"
+            }
+          ]
+        },
+        {
           "name": "Seeeduino Stalker V3",
           "architecture": "Seeeduino_Stalker",
           "version": "1.0.1",
