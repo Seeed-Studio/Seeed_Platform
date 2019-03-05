@@ -720,6 +720,61 @@
             }
           ]
         },
+		
+		{
+          "name": "Seeeduino_SAMD_zero",
+          "architecture": "Seeeduino_SAMD_zero",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_zero_v1.0.0.tar.bz2",
+          "archiveFileName": "Seeeduino_SAMD_zero_v1.0.0.tar.bz2",
+          "checksum": "SHA-256:8d35688627595eaf13727f3fb5589c47fb960c4260c3141f19ce047e0daa4a66",
+          "size": "5727888",
+          "boards": [
+			{
+			  "name": "Seeeduino_Lotus_M0"
+			},
+            {
+              "name": "Seeeduino_Cortex_M0+"
+            },
+			{
+			  "name": "Seeeduino_Wio_Lite_W600"
+			}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Seeeduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino6-static"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "arduinoOTA",
+              "version": "1.2.0"
+            }
+          ]
+        },
+		
         {
           "name": "Seeed STM32F4 Boards",
           "architecture": "Seeed_STM32F4",
