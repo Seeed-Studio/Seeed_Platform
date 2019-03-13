@@ -95,15 +95,15 @@
         {
           "name": "Seeeduino AVR",
           "architecture": "avr",
-          "version": "1.1.2",
+          "version": "1.2.1",
           "category": "Contributed",
           "help": {
             "online": "http://wiki.seeedstudio.com/"
           },
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_AVR_v1.1.2.tar.bz2",
-          "archiveFileName": "Seeeduino_AVR_v1.1.2.tar.bz2",
-          "checksum": "SHA-256:8c658585cd77541df103eb69436eba4e3fbebc26a5556c2af7ac2bb70ff965da",
-          "size": "7658162",
+         "url": "https://raw.githubusercontent.com/Jenkinlu001/Seeed_Platform/master/Seeeduino_AVR_v1.2.1.tar.bz2",
+          "archiveFileName": "Seeeduino_AVR_v1.2.1.tar.bz2",
+          "checksum": "SHA-256:d36a1b61324465f97687e35764d50e3f46b0d70c3c206b63e4a37e6d945db68d",
+          "size": "4978306",
           "boards": [
             {
               "name": "Seeeduino V3.0(Atmega328P)"
