@@ -95,15 +95,15 @@
         {
           "name": "Seeeduino AVR",
           "architecture": "avr",
-          "version": "1.2.1",
+          "version": "1.1.2",
           "category": "Contributed",
           "help": {
             "online": "http://wiki.seeedstudio.com/"
           },
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_AVR_v1.2.1.tar.bz2",
-          "archiveFileName": "Seeeduino_AVR_v1.2.1.tar.bz2",
-          "checksum": "SHA-256:f2b1bdec4760053e8a12ed330d991b68acefb8bb7c0ef151747a9944d3493367",
-          "size": "4978776",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_AVR_v1.1.2.tar.bz2",
+          "archiveFileName": "Seeeduino_AVR_v1.1.2.tar.bz2",
+          "checksum": "SHA-256:8c658585cd77541df103eb69436eba4e3fbebc26a5556c2af7ac2bb70ff965da",
+          "size": "7658162",
           "boards": [
             {
               "name": "Seeeduino V3.0(Atmega328P)"
@@ -720,6 +720,64 @@
             }
           ]
         },
+		
+		{
+          "name": "Seeeduino_SAMD_zero",
+          "architecture": "Seeeduino_SAMD_zero",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_zero_v1.0.0.tar.bz2",
+          "archiveFileName": "Seeeduino_SAMD_zero_v1.0.0.tar.bz2",
+          "checksum": "SHA-256:1101a3ebde74a89928f0fb8d3bdc5bea9737003dc536bbe7c33a44823cee90a4",
+          "size": "7795956",
+          "boards": [
+			{
+			  "name": "Seeeduino_Lotus_M0"
+			},
+            {
+              "name": "Seeeduino_Cortex_M0+"
+            },
+			{
+			  "name": "Seeeduino_Wio_Lite_W600"
+			},
+			{
+			  "name": "Seeeduino_Wio_Lite_BLE"
+			}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Seeeduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino6-static"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "arduinoOTA",
+              "version": "1.2.0"
+            }
+          ]
+        },
+		
         {
           "name": "Seeed STM32F4 Boards",
           "architecture": "Seeed_STM32F4",
