@@ -1244,9 +1244,9 @@
           "category": "Contributed",
           "version": "0.1.1",
           "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/archive/v1.0.zip",
-          "checksum": "SHA-256:e5b2174c66a98960984b75bee0d716130844104eb0907547612a391c1edd5818",
+          "checksum": "SHA-256:1db242425d1975beeb24728086e8508745658e48765dadd1f15fb8da698a47b5",
           "archiveFileName": "ArduinoCore_k210_v1.0.zip",
-          "size": "7700313",
+          "size": "7700327",
           "boards": [
             {
               "name": "Seeeduino k210"
