@@ -17,13 +17,13 @@ Thanks to the new features of Arduino IDE, it's easy to add those board to your 
 
 There're few step to be followed. 
 
-##Step 1. Download the latest Arduino IDE
+## Step 1. Download the latest Arduino IDE
 
 You need a Arduino IDE that after version 1.6.4, please download one if there's no Arduino IDE in your computer.
 
 [![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Stalker_V3_1/master/images/Download_IDE.png)](https://www.arduino.cc/en/Main/Software)
 
-##Step 2. Setting your Arduino IDE
+## Step 2. Setting your Arduino IDE
 
 Open your Arudino IDE, click on **File > Preferences**, and copy below url to *Additional Boards Manager URLs*
 
@@ -33,7 +33,7 @@ https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/package_see
 
 ![](https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/img/settings.png)
 
-##Step 3. Board Manager
+## Step 3. Board Manager
 
 Click on **Toos > Board > Board Manager**.
 
@@ -45,7 +45,7 @@ Click Seeeduino Stalker V3 then an **Install** button appear, click on it to fin
 
 ![](https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/img/add_board.png)
 
-##Step 4. Select a board
+## Step 4. Select a board
 
 After Step 3 was successful, a board named Seeeduino Stalker V3 will show up at the boards list. 
 
