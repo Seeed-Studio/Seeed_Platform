@@ -33,6 +33,9 @@
             },
             {
               "name": "Seeeduino Lite"
+            },
+            {
+              "name": "Seeeduino Lotus"
             }
           ],
           "toolsDependencies": [
@@ -72,6 +75,9 @@
             },
             {
               "name": "Seeeduino Lite"
+            },
+            {
+              "name": "Seeeduino Lotus"
             }
           ],
           "toolsDependencies": [
@@ -119,6 +125,9 @@
             },
             {
               "name": "Seeeduino Nano"
+            },
+            {
+              "name": "Seeeduino Lotus"
             }
           ],
           "toolsDependencies": [
