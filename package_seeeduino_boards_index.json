@@ -786,6 +786,53 @@
           ]
         },
         {
+          "name": "Seeeduino_Wio_Lite_BLE",
+          "architecture": "Seeeduino_Wio_Lite_BLE",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Wio_Lite_BLE_v1.0.0.tar.bz2",
+          "archiveFileName": "Seeeduino_Wio_Lite_BLE_v1.0.0.tar.bz2",
+          "checksum": "SHA-256:b35f81f78e74ae99114e97aefd3b84c011ce5b6de76ea892e4ece9541bf0e163",
+          "size": "2507827",
+          "boards": [
+            {
+			  "name": "Seeeduino_Wio_Lite_BLE"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Seeeduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino6-static"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.1.0"
+            },
+            {
+              "packager": "Seeeduino",
+              "name": "arduinoOTA",
+              "version": "1.2.0"
+            }
+          ]
+        },
+        {
           "name": "Seeed STM32F4 Boards",
           "architecture": "Seeed_STM32F4",
           "version": "1.0.1",
