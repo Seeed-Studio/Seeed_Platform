@@ -1325,6 +1325,41 @@
               "name": "kendryte-standalone-sdk"
             }
           ]
+        },
+        {
+          "name": "Grove AI HAT for Edge Computing",
+          "architecture": "riscv64",
+          "category": "Partner",
+          "version": "1.1.1",
+          "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/archive/v1.1.zip",
+          "checksum": "SHA-256:9ceb6ee4d0b0cb23f89f396889a18f629e114a11c7c6f25b0000bcccdf500e5e",
+          "archiveFileName": "ArduinoCore_k210_v1.1.zip",
+          "size": "7410313",
+          "boards": [
+              { 
+                "name": "Seeed K210 Pi"
+              },
+              { 
+                "name": "Maix Bit"
+              }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Seeeduino",
+              "version": "8.2.0",
+              "name": "riscv64-unknown-elf-gcc"
+            },
+            {
+              "packager": "Seeeduino",
+              "version": "1.0.0",
+              "name": "kflash"
+            },
+            {
+              "packager": "Seeeduino",
+              "version": "0.5.4",
+              "name": "kendryte-standalone-sdk"
+            }
+          ]
         }
       ],
       "tools": [
