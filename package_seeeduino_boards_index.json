@@ -642,8 +642,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_SAMD_zero_v1.0.0.tar.bz2",
           "archiveFileName": "Seeeduino_SAMD_zero_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:1101a3ebde74a89928f0fb8d3bdc5bea9737003dc536bbe7c33a44823cee90a4",
-          "size": "7795956",
+          "checksum": "SHA-256:a43ff95300f0e9f9d5afb868aa8a934c33039306c2e57d32424b30d668af9909",
+          "size": "5976601",
           "boards": [
             {
               "name": "Seeeduino_Lotus_M0"
