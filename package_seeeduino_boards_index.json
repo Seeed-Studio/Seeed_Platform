@@ -695,8 +695,8 @@
           "category": "Contributed",
           "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Wio_Lite_BLE_v1.0.0.tar.bz2",
           "archiveFileName": "Seeeduino_Wio_Lite_BLE_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:b35f81f78e74ae99114e97aefd3b84c011ce5b6de76ea892e4ece9541bf0e163",
-          "size": "2507827",
+          "checksum": "SHA-256:7c81f77b30e3cb1472cee184a21a6973bb6ac3a3c300b292af7c70d6c3a8c6c3",
+          "size": "2723122",
           "boards": [
             {
 			  "name": "Seeeduino_Wio_Lite_BLE"
