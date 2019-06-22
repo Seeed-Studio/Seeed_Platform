@@ -1224,15 +1224,15 @@
             },
             {
               "packager": "Seeeduino",
-              "version": "0.5.5",
+              "version": "0.5.6",
               "name": "kendryte-standalone-sdk"
             }
           ]
         },
-        {
+		{
           "name": "Grove AI HAT for Edge Computing",
           "architecture": "riscv64",
-          "category": "Partner",
+          "category": "Contributed",
           "version": "1.1.1",
           "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/archive/v1.1.zip",
           "checksum": "SHA-256:9ceb6ee4d0b0cb23f89f396889a18f629e114a11c7c6f25b0000bcccdf500e5e",
@@ -1256,7 +1256,39 @@
             },
             {
               "packager": "Seeeduino",
-              "version": "0.5.5",
+              "version": "0.5.6",
+              "name": "kendryte-standalone-sdk"
+            }
+          ]
+        },
+		{
+          "name": "Grove AI HAT for Edge Computing",
+          "architecture": "riscv64",
+          "category": "Contributed",
+          "version": "1.2.0",
+          "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/archive/v1.2.zip",
+          "checksum": "SHA-256:CF7FC780FBEBCE9761BAA7A4799105D45232EE62BD14782CEC901A114C795982",
+          "archiveFileName": "ArduinoCore_k210_v1.2.zip",
+          "size": "6942333",
+          "boards": [
+              { 
+                "name": "Seeed K210 Pi"
+              }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Seeeduino",
+              "version": "8.2.0",
+              "name": "riscv64-unknown-elf-gcc"
+            },
+            {
+              "packager": "Seeeduino",
+              "version": "1.1.0",
+              "name": "kflash"
+            },
+            {
+              "packager": "Seeeduino",
+              "version": "0.5.6",
               "name": "kendryte-standalone-sdk"
             }
           ]
@@ -1268,32 +1300,32 @@
           "name": "riscv64-unknown-elf-gcc",
           "systems": [
             {
-              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190213/kendryte-toolchain-win-amd64-8.2.0-20190213.zip",
-              "checksum": "SHA-256:a82c6e6498eeda662b836e0a5b7a2b26ff7024e9d1f2e906c5d39f440bacdd8d",
+              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190409/kendryte-toolchain-win-amd64-8.2.0-20190409.zip",
+              "checksum": "SHA-256:049CAA0DCC987BB67FCE9EF8B1F80824EFB8077223C10B27F2CED87C100A94F4",
               "host": "i686-mingw32",
               "archiveFileName": "toolchain_v8.2.0_20190213.zip",
-              "size": "471905370"
+              "size": "53852204"
             },
             {
-              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190213/kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
-              "checksum": "SHA-256:aa2fcc76ff61261b3667a422d4f67dec19c4547474bff4ebadaa1258b87985da",
+              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190409/kendryte-toolchain-ubuntu-amd64-8.2.0-20190409.tar.bz2",
+              "checksum": "SHA-256:4329485768FB2D03F4A1F8D752A0F217C7638A0A5D8BE79CFC2B6B0CEE823CD0",
               "host": "x86_64-linux-gnu",
-              "archiveFileName": "kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
-              "size": "360536176"
+              "archiveFileName": "kendryte-toolchain-ubuntu-amd64-8.2.0-20190409.tar.bz2",
+              "size": "47838868"
             },
             {
-              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190213/kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
-              "checksum": "SHA-256:aa2fcc76ff61261b3667a422d4f67dec19c4547474bff4ebadaa1258b87985da",
+              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190409/kendryte-toolchain-ubuntu-amd64-8.2.0-20190409.tar.bz2",
+              "checksum": "SHA-256:4329485768FB2D03F4A1F8D752A0F217C7638A0A5D8BE79CFC2B6B0CEE823CD0",
               "host": "i686-linux-gnu",
-              "archiveFileName": "kendryte-toolchain-ubuntu-amd64-8.2.0-20190213.tar.gz",
-              "size": "360536176"
+              "archiveFileName": "kendryte-toolchain-ubuntu-amd64-8.2.0-20190409.tar.bz2",
+              "size": "47838868"
             },
             {
-              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190213/kendryte-toolchain-osx-mojave-8.2.0-20190213.tar.gz",
-              "checksum": "SHA-256:f3cc7dc8c5fa8928aa804cc305f91935957ef81c41829064d8ee8da8d5aa8ec4",
+              "url": "https://github.com/kendryte/kendryte-gnu-toolchain/releases/download/v8.2.0-20190409/kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+              "checksum": "SHA-256:786486C81E4CCF87227C3EA228CDC8721228DEE60160341725DAEE57567B775D",
               "host": "x86_64-apple-darwin",
-              "archiveFileName": "kendryte-toolchain-osx-mojave-8.2.0-20190213.tar.gz",
-              "size": "50919270"
+              "archiveFileName": "kendryte-toolchain-osx-mojave-8.2.0-20190409.tar.bz2",
+              "size": "48565570"
             }
           ]
         },
@@ -1325,32 +1357,33 @@
           ]
         },
         {
-          "version": "0.5.5",
+          "version": "0.5.6",
           "name": "kendryte-standalone-sdk",
           "systems": [
             {
-              "url": "https://github.com/kendryte/kendryte-standalone-sdk/archive/V0.5.5.zip",
-              "checksum": "SHA-256:487e33f7114bb2a8029f5ba67350812880f886391c293e0a6238f5476f43fa0d",
+              "url": "https://github.com/kendryte/kendryte-standalone-sdk/archive/V0.5.6.zip",
+              "checksum": "SHA-256:248969A49742AA8F044CACD36F7899B61372FE2F99010048D666A9179EF69A23",
               "host": "i686-mingw32",
-              "archiveFileName": "kendryte-standalone-sdk-0.5.5.zip",
-              "size": "434743"
+              "archiveFileName": "kendryte-standalone-sdk-0.5.6.zip",
+              "size": "221608"
             },
             {
-              "url": "https://github.com/kendryte/kendryte-standalone-sdk/archive/V0.5.5.tar.gz",
-              "checksum": "SHA-256:a9e0e6118bcc08e5378a0da73ce408b46ae627402929cdfe097a9df0a2c9e487",
+              "url": "https://github.com/kendryte/kendryte-standalone-sdk/archive/V0.5.6.tar.gz",
+              "checksum": "SHA-256:5FA0594E043BCBE05C2D8915BED7171B4BE1AA01C5AD546F88526486B47F45EA",
               "host": "x86_64-linux-gnu",
-              "archiveFileName": "kendryte-standalone-sdk-0.5.5.tar.gz",
-              "size": "351162"
+              "archiveFileName": "kendryte-standalone-sdk-0.5.6.tar.gz",
+              "size": "171554"
             },
             {
-              "url": "https://github.com/kendryte/kendryte-standalone-sdk/archive/V0.5.5.tar.gz",
-              "checksum": "SHA-256:a9e0e6118bcc08e5378a0da73ce408b46ae627402929cdfe097a9df0a2c9e487",
+              "url": "https://github.com/kendryte/kendryte-standalone-sdk/archive/V0.5.6.tar.gz",
+              "checksum": "SHA-256:5FA0594E043BCBE05C2D8915BED7171B4BE1AA01C5AD546F88526486B47F45EA",
               "host": "x86_64-apple-darwin",
-              "archiveFileName": "kendryte-standalone-sdk-0.5.5.tar.gz",
-              "size": "351162"
+              "archiveFileName": "kendryte-standalone-sdk-0.5.6.tar.gz",
+              "size": "171554"
             }
           ]
         },
+		
         {
           "name": "arm-none-eabi-gcc",
           "version": "4.8.3-2014q1",
