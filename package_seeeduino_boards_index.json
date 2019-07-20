@@ -1219,7 +1219,7 @@
             },
             {
               "packager": "Seeeduino",
-              "version": "1.1.0",
+              "version": "1.3.0",
               "name": "kflash"
             },
             {
@@ -1251,7 +1251,7 @@
             },
             {
               "packager": "Seeeduino",
-              "version": "1.1.0",
+              "version": "1.3.0",
               "name": "kflash"
             },
             {
@@ -1261,7 +1261,7 @@
             }
           ]
         },
-		{
+	{
           "name": "Grove AI HAT for Edge Computing",
           "architecture": "riscv64",
           "category": "Contributed",
@@ -1283,7 +1283,39 @@
             },
             {
               "packager": "Seeeduino",
-              "version": "1.1.0",
+              "version": "1.3.0",
+              "name": "kflash"
+            },
+            {
+              "packager": "Seeeduino",
+              "version": "0.5.6",
+              "name": "kendryte-standalone-sdk"
+            }
+          ]
+        },
+	{
+          "name": "Grove AI HAT for Edge Computing",
+          "architecture": "riscv64",
+          "category": "Contributed",
+          "version": "1.3.0",
+          "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/archive/v1.3.zip",
+          "checksum": "SHA-256:0A81922D5C9A60BD1F7CD9E5173C8490390728ED1AACCC5E8AE832B1D7CCF6DE",
+          "archiveFileName": "ArduinoCore_k210_v1.3.zip",
+          "size": "8134054",
+          "boards": [
+              { 
+                "name": "Seeed K210 Pi"
+              }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Seeeduino",
+              "version": "8.2.0",
+              "name": "riscv64-unknown-elf-gcc"
+            },
+            {
+              "packager": "Seeeduino",
+              "version": "1.3.0",
               "name": "kflash"
             },
             {
@@ -1330,29 +1362,29 @@
           ]
         },
         {
-          "version": "1.1.0",
+          "version": "1.3.0",
           "name": "kflash",
           "systems": [
             {
-              "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/raw/kendryte-standalone-sdk/tools/win_kflash_py_v1.1.0.zip",
-              "checksum": "SHA-256:7b0911e0cfc1619732766280fa1661ca82a375eee9b74552ef42526fb823f2e5",
+              "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/raw/kendryte-standalone-sdk/tools/win_kflash_py_v1.3.0.zip",
+              "checksum": "SHA-256:5E29EA02FF966167489B8DE3DCBBAF675D9CEB4D96EC4BFB904FD854CD217C8B",
               "host": "i686-mingw32",
-              "archiveFileName": "win_kflash_py_v1.1.0.zip",
-              "size": "5240691"
+              "archiveFileName": "win_kflash_py_v1.3.0.zip",
+              "size": "6863354"
             },
             {
-              "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/raw/kendryte-standalone-sdk/tools/linux_kflash_v1.1.0.tar.bz2",
-              "checksum": "SHA-256:9584897b246d6d12ba6a94912923236288d833198b4b2f362cb90d557fe13fcc",
+              "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/raw/kendryte-standalone-sdk/tools/linux_kflash_v1.3.0.tar.bz2",
+              "checksum": "SHA-256:70DE4B76FE08A8379C91C285C796B1CF5E8268060E633E660A1A5B9E349C8FF3",
               "host": "x86_64-linux-gnu",
-              "archiveFileName": "linux_kflash_v1.1.0.tar.bz2",
-              "size": "504180"
+              "archiveFileName": "linux_kflash_v1.3.0.tar.bz2",
+              "size": "70310"
             },
             {
-              "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/raw/kendryte-standalone-sdk/tools/linux_kflash_v1.1.0.tar.bz2",
-              "checksum": "SHA-256:9584897b246d6d12ba6a94912923236288d833198b4b2f362cb90d557fe13fcc",
+              "url": "https://github.com/Seeed-Studio/ArduinoCore-k210/raw/kendryte-standalone-sdk/tools/linux_kflash_v1.3.0.tar.bz2",
+              "checksum": "SHA-256:70DE4B76FE08A8379C91C285C796B1CF5E8268060E633E660A1A5B9E349C8FF3",
               "host": "x86_64-apple-darwin",
-              "archiveFileName": "linux_kflash_v1.1.0.tar.bz2",
-              "size": "504180"
+              "archiveFileName": "linux_kflash_v1.3.0.tar.bz2",
+              "size": "70310"
             }
           ]
         },
