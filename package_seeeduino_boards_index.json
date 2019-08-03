@@ -689,17 +689,17 @@
           ]
         },
         {
-          "name": "Seeeduino_Wio_Lite_BLE",
-          "architecture": "Seeeduino_Wio_Lite_BLE",
+          "name": "Seeeduino_Wio_Lite_MG126",
+          "architecture": "Seeeduino_Wio_Lite_MG126",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Wio_Lite_BLE_v1.0.0.tar.bz2",
-          "archiveFileName": "Seeeduino_Wio_Lite_BLE_v1.0.0.tar.bz2",
-          "checksum": "SHA-256:7c81f77b30e3cb1472cee184a21a6973bb6ac3a3c300b292af7c70d6c3a8c6c3",
-          "size": "2723122",
+          "url": "https://raw.githubusercontent.com/Seeed-Studio/Seeed_Platform/master/Seeeduino_Wio_Lite_MG126_v1.0.0.tar.bz2",
+          "archiveFileName": "Seeeduino_Wio_Lite_MG126_v1.0.0.tar.bz2",
+          "checksum": "SHA-256:760dfe0566fdf45b70a7b60d06cc70c87e2c0093f754aefb3c53d0be27cdbd78",
+          "size": "2507132",
           "boards": [
             {
-			  "name": "Seeeduino_Wio_Lite_BLE"
+			  "name": "Seeeduino_Wio_Lite_MG126"
             }
           ],
           "toolsDependencies": [
