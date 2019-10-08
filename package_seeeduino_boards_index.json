@@ -1327,7 +1327,7 @@
         },
 		{
           "name": "Seeed SAMD Boards",
-          "architecture": "samd",
+          "architecture": "femtom0",
           "version": "1.5.4",
           "category": "Contributed",
           "url": "https://github.com/Seeed-Studio/ArduinoCore-samd/archive/1.5.4.tar.gz",
