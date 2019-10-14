@@ -1374,6 +1374,33 @@
               "version": "1.2.0"
             }
           ]
+        },
+		{
+          "name": "Seeed i.MX RT (NXP 32-bits ARM Cortex-M7) Boards",
+          "architecture": "imxrt",
+          "category": "Contributed",
+          "version": "1.0.0",
+          "url": "https://github.com/Seeed-Studio/ArduinoCore-imxrt/archive/v1.0.0.tar.gz",
+          "archiveFileName": "ArduinoCore-imxrt-1.0.0.tar.gz",
+          "checksum": "SHA-256:00E2B24B6331B304B15200884FE93A313960EB9CA42ADC2EB86C16802D69332F",
+          "size": "23955867",
+          "boards": [
+            {
+              "name": "Seeed Arch Mix"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "Seeeduino",
+              "version": "7-2017q4",
+              "name": "arm-none-eabi-gcc"
+            },
+            {
+              "packager": "Seeeduino",
+              "version": "1.9.1-seeeduino",
+              "name": "bossac"
+            }
+          ]
         }
       ],
       "tools": [
@@ -1668,6 +1695,40 @@
               "archiveFileName": "bossac-1.7.0-arm-linux-gnueabihf.tar.gz",
               "checksum": "SHA-256:09e46d0af61b2189caaac0bc6d4dd15cb22c167fdedc56ec98602dd5f10e68e0",
               "size": "27382"
+            }
+          ]
+        },
+	    {
+          "name": "bossac",
+          "version": "1.9.1-seeeduino",
+          "systems": [
+            {
+              "host": "i686-linux-gnu",
+              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-linux.tar.gz",
+              "archiveFileName": "bossac-1.9.1-seeeduino-linux.tar.gz",
+              "checksum": "SHA-256:6D67317017CB02CD000F7BA782CEE99985F69B22EC2A857E880512F0FF8437F8",
+              "size": "468465"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-linux.tar.gz",
+              "archiveFileName": "bossac-1.9.1-seeeduino-linux.tar.gz",
+              "checksum": "SHA-256:6D67317017CB02CD000F7BA782CEE99985F69B22EC2A857E880512F0FF8437F8",
+              "size": "468465"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-windows.tar.bz2",
+              "archiveFileName": "bossac-1.9.1-seeeduino-windows.tar.bz2",
+              "checksum": "SHA-256:3DBA3C4128E95F27A469C39B79E93652B26DF7A40F0A8D27B399B30F373AD5A1",
+              "size": "493021"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "url": "https://github.com/Seeed-Studio/BOSSA/releases/download/1.9.1-seeeduino/bossac-1.9.1-seeeduino-drawin.tar.gz",
+              "archiveFileName": "bossac-1.9.1-seeeduino-drawin.tar.gz",
+              "checksum": "SHA-256:846B8C7D85421BCE825B7B13768DCA54C2C09127707F3F1842DDD8E19E20F7D4",
+              "size": "75394"
             }
           ]
         },
