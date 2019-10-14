@@ -1327,7 +1327,7 @@
         },
 		{
           "name": "Seeed SAMD Boards",
-          "architecture": "femtom0",
+          "architecture": "samdx1",
           "version": "1.5.4",
           "category": "Contributed",
           "url": "https://github.com/Seeed-Studio/ArduinoCore-samd/archive/1.5.4.tar.gz",
@@ -1341,6 +1341,68 @@
 		    {
               "name": "Seeed Femto M0"
             }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.9.0-arduino"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            }
+          ]
+        },
+		{
+          "name": "Seeed SAMD Boards",
+          "architecture": "samdx1",
+          "version": "1.5.5",
+          "category": "Contributed",
+          "url": "https://github.com/Seeed-Studio/ArduinoCore-samd/archive/1.5.5.tar.gz",
+          "archiveFileName": "ArduinoCore-samd-1.5.5.tar.gz",
+          "checksum": "SHA-256:3E7A10E8CEA9A8D4783CDFEBCA3EE6939A20DD38B1FCD13C12C869A809F051C9",
+          "size": "23331227",
+          "help": {
+            "online": "http://wiki.seeedstudio.com"
+          },
+          "boards": [
+		    {
+              "name": "Seeeduino Femto M0"
+			},
+			{
+			  "name": "Seeeduino Zero"
+			},
+			{
+			  "name": "Seeeduino LoRaWAN"
+			},
+			{ 
+			  "name": "Wio GPS Board"
+			},
+			{
+			  "name": "Grove UI Wireless"
+			}
           ],
           "toolsDependencies": [
             {
