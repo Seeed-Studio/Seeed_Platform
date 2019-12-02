@@ -1549,6 +1549,71 @@
               }
             ]
           },
+		   {
+            "name": "Seeed SAMD Boards",
+            "architecture": "samd",
+            "version": "1.5.7",
+            "category": "Contributed",
+            "url": "https://github.com/Seeed-Studio/ArduinoCore-samd/archive/1.5.7.tar.gz",
+            "archiveFileName": "ArduinoCore-samd-1.5.7.tar.gz",
+            "checksum": "SHA-256:D0471C4AD5F01F13FC07C7FC576D7D47957CA9AE1553C0E496DE596BF407FC08",
+            "size": "23369142",
+            "help": {
+              "online": "http://wiki.seeedstudio.com"
+            },
+            "boards": [
+			  {
+                "name": "Seeeduino XIAO M0"
+              },
+              {
+                "name": "Seeeduino Femto M0"
+              },
+              {
+                "name": "Seeeduino Zero"
+              },
+              {
+                "name": "Seeeduino LoRaWAN"
+              },
+              { 
+                "name": "Wio GPS Board"
+              },
+              {
+                "name": "Grove UI Wireless"
+              }
+            ],
+            "toolsDependencies": [
+              {
+                "packager": "arduino",
+                "name": "arm-none-eabi-gcc",
+                "version": "4.8.3-2014q1"
+              },
+              {
+                "packager": "arduino",
+                "name": "bossac",
+                "version": "1.7.0"
+              },
+              {
+                "packager": "arduino",
+                "name": "bossac",
+                "version": "1.8.0-48-gb176eee"
+              },
+              {
+                "packager": "arduino",
+                "name": "openocd",
+                "version": "0.9.0-arduino"
+              },
+              {
+                "packager": "arduino",
+                "name": "CMSIS",
+                "version": "4.5.0"
+              },
+              {
+                "packager": "arduino",
+                "name": "CMSIS-Atmel",
+                "version": "1.2.0"
+              }
+            ]
+          },
       {
             "name": "Seeed i.MX RT (NXP 32-bits ARM Cortex-M7) Boards",
             "architecture": "imxrt",
