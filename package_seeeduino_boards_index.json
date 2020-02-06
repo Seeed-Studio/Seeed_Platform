@@ -1872,8 +1872,8 @@
                     "category": "Contributed",
                     "url": "https://github.com/Seeed-Studio/ArduinoCore-samd/archive/1.6.6.tar.gz",
                     "archiveFileName": "ArduinoCore-samd-1.6.6.tar.gz",
-                    "checksum": "SHA-256:56DFCB6E3F3DD976BD6C4A5976BFCEC20929AEE351BA9A39520EF2C83ECF04DF",
-                    "size": "3180720",
+                    "checksum": "SHA-256:97C1AE93409B4439D7CC40D66CA02727CE2728AE690D0D3C556012BEE3E64708",
+                    "size": "3180780",
                     "help": {
                         "online": "http://wiki.seeedstudio.com"
                     },
