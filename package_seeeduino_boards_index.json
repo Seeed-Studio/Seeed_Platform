@@ -1906,6 +1906,11 @@
                         {
                             "packager": "Seeeduino",
                             "name": "bossac",
+                            "version": "1.7.0"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "bossac",
                             "version": "1.8.0-48-gb176eee"
                         },
                         {
