@@ -1998,6 +1998,74 @@
                         }
                     ]
                 },
+		{
+                    "name": "Seeed SAMD Boards",
+                    "architecture": "samd",
+                    "version": "1.7.2",
+                    "category": "Contributed",
+                    "url": "https://github.com/Seeed-Studio/ArduinoCore-samd/releases/download/1.7.2/ArduinoCore-samd-1.7.2.tar.gz",
+                    "archiveFileName": "ArduinoCore-samd-1.7.2.tar.gz",
+                    "checksum": "SHA-256:5B5E9C2502392F2E315B2138E14A7E2D0A0A511EEAE751714DF90B5C368BE343",
+                    "size": "5445718",
+                    "help": {
+                        "online": "http://wiki.seeedstudio.com"
+                    },
+                    "boards": [
+			{
+                            "name": "Seeeduino Wio Terminal"
+                        },
+                        {
+                            "name": "Seeeduino XIAO M0"
+                        },
+                        {
+                            "name": "Seeeduino Femto M0"
+                        },
+                        {
+                            "name": "Seeeduino Zero"
+                        },
+                        {
+                            "name": "Seeeduino LoRaWAN"
+                        },
+                        {
+                            "name": "Wio GPS Board"
+                        },
+                        {
+                            "name": "Grove UI Wireless"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "Seeeduino",
+                            "name": "arm-none-eabi-gcc",
+                            "version": "4.8.3-2014q1"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "bossac",
+                            "version": "1.7.0"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "bossac",
+                            "version": "1.8.0-48-gb176eee"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "openocd",
+                            "version": "0.9.0-arduino"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "CMSIS",
+                            "version": "4.5.0"
+                        },
+                        {
+                            "packager": "Seeeduino",
+                            "name": "CMSIS-Atmel",
+                            "version": "1.2.0"
+                        }
+                    ]
+                },
                 {
                     "name": "Seeed i.MX RT (NXP 32-bits ARM Cortex-M7) Boards",
                     "architecture": "imxrt",
